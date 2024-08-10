@@ -135,59 +135,106 @@
 
     </section>
 
-    <!-- orçamento -->
+    <!-- orçamento e serviços -->
     <section>
 
         <h2>Orçamento</h2>
 
         <form action="" method="get">
 
-            <label for="name">Nome</label>
-            <input type="text" name="name" id="name" required>
+            <fieldset>
 
-            <br><br>
+                <legend>Dados da Viagem</legend>
 
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" required>
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" required>
 
-            <br><br>
+                <br><br>
 
-            <label for="date-ida">Data de Ida</label>
-            <input type="date" name="dat-ida" id="date-ida" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
 
-            <br><br>
+                <br><br>
 
-            <label for="date-volta">Data de Volta</label>
-            <input type="date" name="date-volta" id="date-volta" required>
+                <label for="date-ida">Data de Ida</label>
+                <input type="date" name="dat-ida" id="date-ida" required>
 
-            <br><br>
+                <br><br>
 
-            <label for="number">Quantidade de Pessoas</label>
-            <input type="number" name="number" id="number" required>
+                <label for="date-volta">Data de Volta</label>
+                <input type="date" name="date-volta" id="date-volta" required>
 
-            <br><br>
+                <br><br>
 
+                <label for="number">Quantidade de Pessoas</label>
+                <input type="number" name="number" id="number" required>
 
-            <!-- serviços -->
-            <label for="services">Quais serviços Deseja Contratar?</label>
-
-            <br>
-
-            <input type="checkbox" name="lembrancas" id="lembrancas" value="lembrancas"> Lembranças
+            </fieldset>
 
             <br>
 
-            <input type="checkbox" name="hotel" id="hotel" value="hotel"> Reserva Hotel
+            <fieldset>
+
+                <legend>Quais serviços Deseja Contratar?</legend>
+
+                <br>
+
+                <label>
+                    <input type="checkbox" name="lembrancas" id="lembrancas" value="lembrancas"> Lembranças
+                </label>
+
+                <br>
+
+                <label>
+                    <input type="checkbox" name="hotel" id="hotel" value="hotel"> Reserva Hotel
+                </label>
+
+                <br>
+
+                <label>
+                    <input type="checkbox" name="passagens" id="passagens" value="passagens"> Compra de Passagens
+                </label>
+
+                <br>
+
+                <label>
+                    <input type="checkbox" name="carro" id="carro" value="carro"> Aluguel de Carro
+                </label>
+                <br><br>
+
+            </fieldset>
 
             <br>
 
-            <input type="checkbox" name="passagens" id="passagens" value="passagens"> Compra de Passagens
+            <fieldset>
 
-            <br>
+                <legend>Escolha a forma de Pagamento</legend>
 
-            <input type="checkbox" name="carro" id="carro" value="carro"> Aluguel de Carro
+                <label>
 
-            <br><br>
+                    <input type="radio" name="pagamento" id="credito" value="cartao-de-credito"> Cartão de Crédito
+
+                </label>
+
+                <br>
+
+                <label>
+
+                    <input type="radio" name="pagamento" id="boleto"> Boleto
+
+                </label>
+
+                <br>
+
+                <label>
+
+                    <input type="radio" name="pagamento" id="pix"> PIX
+
+                </label>
+
+
+            </fieldset>
+
 
             <label for="comments">Comentário</label>
             <br>
