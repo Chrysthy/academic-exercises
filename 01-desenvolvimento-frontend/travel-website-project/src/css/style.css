@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #f4511e;
+    background-color: #008000;
 }
 
 section,
@@ -36,7 +36,26 @@ h2 {
 
 nav li a {
     padding: 10px;
-    color: #fff;
+    color: #000;
 
     text-decoration: none;
+}
+
+nav li {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav {
+    font-size: 12px;
+    letter-spacing: 4px;
+    height: 50px;
+
+    background-color: #ffff00;
+
+    padding-right: 40px;
 }
