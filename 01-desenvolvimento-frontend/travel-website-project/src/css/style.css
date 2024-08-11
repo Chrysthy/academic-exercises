@@ -33,3 +33,10 @@ h2 {
     color: #303030;
     font-weight: 600;
 }
+
+nav li a {
+    padding: 10px;
+    color: #fff;
+
+    text-decoration: none;
+}
