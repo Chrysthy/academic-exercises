@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -12,80 +12,101 @@
 
     <h1>Formulário de Reserva</h1>
 
-    <fieldset>
+    <form action="#" method="post">
 
-        <legend>Dados do Pax</legend>
+        <fieldset>
 
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name">
+            <legend>Dados do Pax</legend>
 
-        <br>
-        <br>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required>
 
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email">
+            <br>
+            <br>
 
-    </fieldset>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
 
-    <br>
-
-    <fieldset>
-
-        <legend>Serviços Desejados</legend>
-
-        <label>
-
-            <input type="checkbox" name="passagens" value="passagens"> Compra de Passagens
-
-        </label>
+        </fieldset>
 
         <br>
 
-        <label>
+        <fieldset>
 
-            <input type="checkbox" name="hospedagem" value="hospedagem"> Reserva de Hospedagem
+            <legend>Serviços Desejados</legend>
 
-        </label>
+            <label>
 
-        <br>
+                <input type="checkbox" name="passagens" value="passagens"> Compra de Passagens
 
-        <label>
+            </label>
 
-            <input type="checkbox" name="veiculos" value="veiculos"> Aluguel de Veículos
+            <br>
 
-        </label>
+            <label>
 
-    </fieldset>
+                <input type="checkbox" name="hospedagem" value="hospedagem"> Reserva de Hospedagem
 
-    <br>
+            </label>
 
-    <fieldset>
+            <br>
 
-        <legend>Forma de Pagamento</legend>
+            <label>
 
-        <label>
+                <input type="checkbox" name="veiculos" value="veiculos"> Aluguel de Veículos
 
-            <input type="radio" name="pagamento" value="cartao-de-credito"> Cartão de Crédito
+            </label>
 
-        </label>
-
-        <br>
-
-        <label>
-
-            <input type="radio" name="pagamento" value="boleto"> Boleto
-
-        </label>
+        </fieldset>
 
         <br>
 
-        <label>
+        <fieldset>
 
-            <input type="radio" name="pagamento" value="pix"> PIX
+            <legend>Forma de Pagamento</legend>
 
-        </label>
+            <label>
 
-    </fieldset>
+                <input type="radio" name="pagamento" value="cartao-de-credito"> Cartão de Crédito
+
+            </label>
+
+            <br>
+
+            <label>
+
+                <input type="radio" name="pagamento" value="boleto"> Boleto
+
+            </label>
+
+            <br>
+
+            <label>
+
+                <input type="radio" name="pagamento" value="pix"> PIX
+
+            </label>
+
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+
+            <legend>Prazo de Pagamento</legend>
+
+            <select name="prazo">
+
+                <option value="">Selecione uma Opção</option>
+                <option value="a-vista">À vista</option>
+                <option value="cinco-sem-juros">5X sem juros</option>
+                <option value="dez-sem-juros">10X com juros</option>
+
+            </select>
+
+        </fieldset>
+
+    </form>
 
 </body>
 
