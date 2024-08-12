@@ -1,3 +1,4 @@
+//VAR
 console.log("Testando...");
 
 var a = 10;
@@ -20,3 +21,10 @@ var variavel1;
 variavel1 = 23;
 
 console.log(variavel1);
+
+
+//LET
+let book = 10;
+book = 20;
+
+console.log(book);
