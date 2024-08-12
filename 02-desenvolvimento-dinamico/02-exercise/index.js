@@ -28,3 +28,10 @@ let book = 10;
 book = 20;
 
 console.log(book);
+
+
+//CONST
+const valor1 = 100;
+//valor1 = 200; Não pode ser alterado
+
+console.log(valor1);
