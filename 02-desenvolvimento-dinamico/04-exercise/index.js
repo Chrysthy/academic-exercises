@@ -12,3 +12,11 @@ x++;
 // x--
 
 console.log(x);
+
+b = 20;
+c = 60;
+
+
+console.log(n <= x && b != c);
+console.log(n <= x || b != c);
+console.log(!(n <= x || b != c));
