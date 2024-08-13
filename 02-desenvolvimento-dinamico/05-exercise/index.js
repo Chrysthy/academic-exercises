@@ -4,7 +4,7 @@ var valores = [8, 1, 7, 2, 9];
 console.log(valores[0]);
 
 //INTERAÇÃO DOS ELEMENTOS 
-for (var i=0; i < valores.length; i++){
+for (var i = 0; i < valores.length; i++) {
 
     console.log(`Posição ${i} - Valor ${valores[i]}`);
 
@@ -21,13 +21,13 @@ var motos = new Array("BMW", "Yamaha", "Honda");
 //calcular a média de todos os números de um array
 var soma = 0;
 
-for (var i=0; i < valores.length; i++){
+for (var i = 0; i < valores.length; i++) {
 
     soma += valores[i]
 
 }
 
-var media = soma/valores.length;
+var media = soma / valores.length;
 
 console.log(media);
 
@@ -52,3 +52,13 @@ console.log(valores2.push(7));
 
 //Criar um novo array somente com números positivos
 var array = [-5, 10, 15, 20, -3, 89]
+var positivos = [];
+
+for (var i = 0; i < array.length; i++) {
+
+    if (array[i] > 0) {
+        positivos.push(array[i])
+    }
+}
+
+console.log(positivos);
