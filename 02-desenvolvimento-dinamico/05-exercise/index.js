@@ -62,3 +62,25 @@ for (var i = 0; i < array.length; i++) {
 }
 
 console.log(positivos);
+
+
+//SPLICE
+var valores3 = [1, 2, 3, 4, 5, 6, 7];
+
+valores3.splice(2, 3);
+
+console.log(valores3);
+
+
+var nomes = ['Chrystine', 'Leon', 'Noob', 'Collin'];
+var novos = nomes.splice(1, 2, 'Mileena', 'Frost');
+
+console.log(nomes);
+console.log(novos);
+
+
+var pais = ['Brasil', 'Argentina', 'Colombia'];
+
+pais.unshift('Uruguai')
+
+console.log(pais);
