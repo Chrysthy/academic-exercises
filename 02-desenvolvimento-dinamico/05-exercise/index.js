@@ -33,7 +33,22 @@ console.log(media);
 
 //MÉTODOS DE ARRAYS
 var valores2 = [1, 2, 3, 4, 5, 6];
+var valorRetirado = valores2.shift();
 
 console.log(`Array invertido: ${valores2.reverse()}`);
 
+console.log(valores2.join('|'));
 
+console.log(valores2.pop());
+
+console.log(valorRetirado);
+
+console.log(valores2);
+
+console.log(`Posição do número 3: ${valores2.indexOf(3)}`);
+
+console.log(valores2.push(7));
+
+
+//Criar um novo array somente com números positivos
+var array = [-5, 10, 15, 20, -3, 89]
