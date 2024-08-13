@@ -30,3 +30,10 @@ for (var i=0; i < valores.length; i++){
 var media = soma/valores.length;
 
 console.log(media);
+
+//MÉTODOS DE ARRAYS
+var valores2 = [1, 2, 3, 4, 5, 6];
+
+console.log(`Array invertido: ${valores2.reverse()}`);
+
+
