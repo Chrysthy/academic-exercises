@@ -6,7 +6,7 @@
 <p align="center">  
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-academi-exercises">Academic Exercises</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-license">License</a>  
 </p>
 
@@ -18,4 +18,33 @@
   <img alt="Imagem da Faculdade" src="" width="80%">
 </p>
 
+## 🛠 Technologies
 
+- JavaScript;
+- Node;
+- Git e GitHub.
+
+
+## ✨ Features
+
+- Conceitos e Comandos;
+- Arrays;
+- If;
+- Switch;
+- For;
+- While;
+- Strings;
+- Functions;
+- Classes;
+- DOM;
+- Exception;
+- Promise;
+- JSON.
+
+## 💻 Academic Exercises
+
+- This repository was created to practice the exercises proposed by the professors.
+
+## 📜 License
+
+* This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
