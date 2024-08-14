@@ -84,3 +84,18 @@ var pais = ['Brasil', 'Argentina', 'Colombia'];
 pais.unshift('Uruguai')
 
 console.log(pais);
+
+
+//SLICE
+var pessoa = ['Chrystine', 'Noob', 'Leon', 'Collin'];
+var gerente = ['Scorpion', 'Mileena'];
+var pessoas1 = pessoa.slice(1, 3);
+
+console.log(pessoa);
+console.log(pessoas1);
+
+
+//CONCATENACAO
+var empresa = pessoa.concat(gerente);
+
+console.log(empresa);
