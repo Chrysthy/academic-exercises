@@ -10,13 +10,18 @@
   <a href="#-license">License</a>  
 </p>
 
+
 <p align="center">
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=c920c9&labelColor=000000">
 </p>
 
+<br>
+
 <p align="center">
-  <img alt="Imagem da Faculdade" src="" width="80%">
+  <img alt="Imagem da Faculdade" src=".github/logo-descomplica-black.png" width="80%">
 </p>
+
+<br>
 
 ## 🛠 Technologies
 
