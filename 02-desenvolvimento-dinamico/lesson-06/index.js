@@ -97,3 +97,45 @@ var eletronicos = produtos.filter((item) => {
 })
 
 console.log(eletronicos);
+
+
+//MAP
+var numeros2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+var nums = numeros2.map(
+
+    function (valor) {
+
+        return valor * 2;
+    }
+)
+
+console.log(nums);
+
+
+var funcionarios2 = [
+    {
+        nome: 'Chrystine',
+        idade: 32
+    },
+
+    {
+        nome: 'Noob',
+        idade: 14
+    },
+
+    {
+        nome: 'Leon',
+        idade: 4
+    },
+
+    {
+        nome: 'Collin',
+        idade: 4
+    }
+
+]
+
+var nomesFuncionarios = funcionarios2.map(person => person.nome)
+
+console.log(nomesFuncionarios);
