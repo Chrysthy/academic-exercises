@@ -34,19 +34,32 @@
 
 ## ✨ Features
 
-- Conceitos e Comandos;
-- Arrays;
-- If;
-- Switch;
-- For;
-- While;
-- Strings;
-- Functions;
-- Classes;
-- DOM;
-- Exception;
-- Promise;
-- JSON.
+1. FrontEnd
+
+ * Conceitos HTML;
+ * Mídia;
+ * Tabelas;
+ * Forms;
+ * Conceitos CSS;
+ * BootStrap;
+ 
+
+
+2. BackEnd
+
+  * Conceitos e Comandos;
+  * Arrays;
+  * If;
+  * Switch;
+  * For;
+  * While;
+  * Strings;
+  * Functions;
+  * Classes;
+  * DOM;
+  * Exception;
+  * Promise;
+  * JSON.
 
 ## 💻 Academic Exercises
 
