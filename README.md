@@ -20,6 +20,8 @@
 
 ## 🛠 Technologies
 
+- HTML;
+- CSS;
 - JavaScript;
 - Node;
 - Git e GitHub.
