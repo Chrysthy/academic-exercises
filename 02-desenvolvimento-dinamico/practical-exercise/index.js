@@ -1,21 +1,21 @@
-var bebidas = 'café';
+var bebidas = "café";
 
 switch (bebidas) {
 
-    case 'café':
+    case "café":
 
         console.log("Bebida escolhida: " + bebidas + " - Valor R$ 1.50.");
 
         break;
 
-    case 'leite':
+    case "leite":
 
         console.log("Bebida escolhida: " + bebidas + " - Valor R$ 2.50.");
 
 
         break;
 
-    case 'chá':
+    case "chá":
 
         console.log("Bebida escolhida: " + bebidas + " - Valor R$ 4.00.");
 
