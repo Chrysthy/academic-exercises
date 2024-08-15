@@ -42,7 +42,8 @@
  * Forms;
  * Conceitos CSS;
  * BootStrap;
- * 
+ * Versionamento de código;
+ * GitHub pages;
 
 2. BackEnd
 
