@@ -40,3 +40,26 @@ var num = '1|2|3|4|5|6|7|8';
 var array = num.split('|');
 
 console.log(array[1]);
+
+//SUBSTRING
+var linguagens = "JavaScript e Python"
+var novaLinguagem = linguagens.substring(13, 19);
+console.log(novaLinguagem);
+
+//REPLACE
+var frase2 = 'Hello world';
+var frase3 = frase2.replace('world', 'Chrystine');
+
+console.log(frase2);
+console.log(frase3);
+
+
+//O que o prof fez:
+if (frase2.startsWith('Hello')) {
+    let sub = frase2.substring(6);
+    let novaFrase = sub.replace('world', 'Chrystine');
+    let novaFraseMaiuscula = novaFrase.toUpperCase();
+
+    console.log(novaFraseMaiuscula);
+
+}
