@@ -72,11 +72,13 @@ const parametros = url.split('?')[1];
 const valores = parametros.split('&');
 
 console.log(parametros);
-console.log(valores);
 
-for (let i = 0; 1 < valores.length; i++) {
+
+for (let i = 0; i < valores.length; i++) {
 
     if (valores[i].startsWith('atores=')) {
         valores[i] = "atores=" + valores[i].substring(7).toUpperCase();
     }
 }
+
+console.log(valores);
