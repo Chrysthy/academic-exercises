@@ -1,11 +1,26 @@
 #title {
-    background-color: #dda0dd ;
-    color: #808080 ;
+    background-color: #dda0dd;
+    color: #808080;
     text-align: center;
 }
 
 .caption {
-    background-color: #ffff00 ;
-    color: #008000 ;
+    background-color: #ffff00;
+    color: #008000;
+}
+
+.list {
+    list-style: none;
+}
+
+.list li {
+    float: left;
+    margin-right: 10px;
+}
+
+.list a {
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
 }
 
