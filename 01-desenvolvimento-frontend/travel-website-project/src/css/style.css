@@ -34,7 +34,7 @@ h2 {
     font-weight: 600;
 }
 
-nav li a {
+/* nav li a {
     padding: 10px;
     color: #000;
 
@@ -58,7 +58,7 @@ nav {
     background-color: #ffff00;
 
     padding-right: 40px;
-}
+} */
 
 table {
     width: 100%;
