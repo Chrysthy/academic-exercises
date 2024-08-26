@@ -12,48 +12,118 @@
 
 <body>
 
-    <div class="container">
+    <section class="container">
 
         <h2>Container Fixo</h2>
 
         <p>Este container possui uma largura máxima fixa e se adapta ao tamanho da tela para centralizar o conteúdo.</p>
 
-    </div>
+    </section>
 
-    <div class="container-md">
+    <section class="container-md">
 
         <h2>Container com Breakpoint Médio</h2>
 
         <p>Este container ajusta sua largura máxima até o limite do breakpoint 'medium' (768px).</p>
 
-    </div>
+    </section>
 
-    <div class="container-lg">
+    <section class="container-lg">
 
         <h2>Container com Breakpoint Grande</h2>
 
         <p>Este container ajusta sua largura máxima até o limite do breakpoint 'large' (992px).</p>
 
-    </div>
+    </section>
 
-    <div class="container-fluid">
+    <section class="container-fluid">
 
         <h2>Container Fluido</h2>
 
         <p>Este é um exemplo de um container que ocupa 100% da largura da tela.</p>
 
-    </div>
+    </section>
 
 
     <!-- Container com plano de fundo laranja e texto centralizado -->
-    <div class="bg-warning text-center p-3">
+    <section class="bg-warning text-center p-3">
 
         <h2>Alerta!</h2>
 
         <p>Este é um texto centralizado com plano de fundo laranja.</p>
-        
-    </div>
 
+    </section>
+
+
+   <!-- Container principal para o formulário -->
+   <main class="container mt-5">
+    <!-- Fieldset para agrupar campos relacionados -->
+    <fieldset class="border p-4">
+
+        <legend class="w-auto">Dados Pessoais</legend>
+
+        <!-- Campo de nome -->
+        <section class="mb-3">
+
+            <label for="nome" class="form-label">Nome Completo</label>
+            <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+
+        </section>
+
+        <!-- Campo de e-mail -->
+        <section class="mb-3">
+
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+
+        </section>
+
+        <!-- Campo de data de ida -->
+        <section class="mb-3">
+
+            <label for="data-ida" class="form-label">Data de Ida</label>
+            <input type="date" class="form-control" id="data-ida">
+
+        </section>
+
+        <!-- Campo de data de volta -->
+        <section class="mb-3">
+
+            <label for="data-volta" class="form-label">Data de Volta</label>
+            <input type="date" class="form-control" id="data-volta">
+
+        </section>
+
+    </fieldset>
+
+    <!-- Segundo fieldset para checkboxes -->
+    <fieldset class="border p-4 mt-4">
+
+        <legend class="w-auto">Preferências</legend>
+
+        <!-- Checkbox para uma preferência -->
+        <section class="form-check">
+            
+            <input class="form-check-input" type="checkbox" id="preferencia1">
+            <label class="form-check-label" for="preferencia1">
+                Quero receber ofertas e promoções
+            </label>
+
+        </section>
+
+        <!-- Checkbox para outra preferência -->
+        <section class="form-check">
+
+            <input class="form-check-input" type="checkbox" id="preferencia2">
+            <label class="form-check-label" for="preferencia2">
+                Aceito os termos e condições
+            </label>
+
+        </section>
+
+    </fieldset>
+
+</main>
 
     <script src=“https://code.jquery.com/jquery-3.3.1.slim.min.js”></script>
 
