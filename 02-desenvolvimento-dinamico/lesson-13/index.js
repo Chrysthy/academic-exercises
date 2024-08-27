@@ -6,18 +6,18 @@ function multiplicar(x, y) {
 console.log(multiplicar(2, 2));
 
 var a = multiplicar(4, 2);
-var b = multiplicar(6,7);
+var b = multiplicar(6, 7);
 
 console.log(a);
 console.log(b);
 
-function somaValores (a, b = 2, c = 6) {
+function somaValores(a, b = 2, c = 6) {
     var total = a + b + c;
 
     return total
 }
 
-var f = somaValores (8,4,5);
+var f = somaValores(8, 4, 5);
 console.log(f);
 
 
@@ -31,3 +31,8 @@ console.log(infoCal(2, 2, 2));
 
 
 //arrow function
+const sum = (num1, num2) => {
+    return num1 + num2;
+};
+
+console.log(sum(4, 4));
