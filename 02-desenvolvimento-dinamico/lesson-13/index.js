@@ -49,3 +49,7 @@ var listaEmMaiuscula = listaProdutos.map(primeiraEmMaiuscula);
 function primeiraEmMaiuscula(elemento) {
     return elemento.charAt(0).toUpperCase() + elemento.slice(1);
 }
+
+console.log(listaEmMaiuscula);
+
+
