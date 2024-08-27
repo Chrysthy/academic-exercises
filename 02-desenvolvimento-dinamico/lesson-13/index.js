@@ -39,4 +39,13 @@ console.log(sum(4, 4));
 
 const numeros = [1, 2, 3, 4, 5];
 const valores = numeros.map((num) => num * num);
-]console.log(valores);
+
+console.log(valores);
+
+
+var listaProdutos = ['geladeira', 'fogão', 'air fryer'];
+var listaEmMaiuscula = listaProdutos.map(primeiraEmMaiuscula);
+
+function primeiraEmMaiuscula(elemento) {
+    return elemento.charAt(0).toUpperCase() + elemento.slice(1);
+}
