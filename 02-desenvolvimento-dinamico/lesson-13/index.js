@@ -36,3 +36,7 @@ const sum = (num1, num2) => {
 };
 
 console.log(sum(4, 4));
+
+const numeros = [1, 2, 3, 4, 5];
+const valores = numeros.map((num) => num * num);
+]console.log(valores);
