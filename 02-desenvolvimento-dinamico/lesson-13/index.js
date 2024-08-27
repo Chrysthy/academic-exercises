@@ -11,3 +11,17 @@ var b = multiplicar(6,7);
 console.log(a);
 console.log(b);
 
+function somaValores (a, b = 2, c = 6) {
+    var total = a + b + c;
+
+    return total
+}
+
+var f = somaValores (8,4,5);
+console.log(f);
+
+
+//função anônima
+var infoCal = function (a, b, c) {
+    
+}
