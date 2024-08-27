@@ -21,9 +21,13 @@ var f = somaValores (8,4,5);
 console.log(f);
 
 
+
 //função anônima
 var infoCal = function (a, b, c) {
     return a + b + c
 };
 
 console.log(infoCal(2, 2, 2));
+
+
+//arrow function
