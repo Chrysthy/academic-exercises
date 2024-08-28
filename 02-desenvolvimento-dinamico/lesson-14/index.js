@@ -49,5 +49,9 @@ addItemToCard("Blusa");
 addItemToCard("Short");
 
 viewCart();
+
 removeItemFromCart("Blusa");
+viewCart();
+
+clearCart();
 viewCart();
