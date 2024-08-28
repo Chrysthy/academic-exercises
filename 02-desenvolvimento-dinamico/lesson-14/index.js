@@ -47,3 +47,5 @@ function clearCart() {
 addItemToCard("Tennis");
 addItemToCard("Blusa");
 addItemToCard("Short");
+
+viewCart();
