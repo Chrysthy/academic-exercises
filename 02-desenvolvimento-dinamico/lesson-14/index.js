@@ -36,10 +36,14 @@ function viewCart() {
     };
 };
 
-function clearCart () {
+function clearCart() {
 
     shoppingCart.length = 0;
 
     console.log("Your shopping cart has been cleared");
-    
-}
+
+};
+
+addItemToCard("Tennis");
+addItemToCard("Blusa");
+addItemToCard("Short");
