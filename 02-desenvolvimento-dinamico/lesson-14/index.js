@@ -35,3 +35,11 @@ function viewCart() {
 
     };
 };
+
+function clearCart () {
+
+    shoppingCart.length = 0;
+
+    console.log("Your shopping cart has been cleared");
+    
+}
