@@ -9,3 +9,12 @@ const pessoa = {
 }
 
 console.log(pessoa['sobrenome']);
+
+
+//2 - forma de criar objetos
+const funcionario = new Object();
+funcionario.nome = 'Noob';
+funcionario.sobrenome = 'Saibot';
+
+console.log(funcionario.nome);
+
