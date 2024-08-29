@@ -27,6 +27,7 @@
 
 - HTML;
 - CSS;
+- Bootstrap;
 - JavaScript;
 - Node;
 - Git e GitHub.
