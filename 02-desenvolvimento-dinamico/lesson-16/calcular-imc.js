@@ -27,20 +27,20 @@ function pessoa(nome, sobrenome, a, p) {
                 console.log("Acima do peso");
 
 
-            } else if (indice >= 30 && indice <34.9) {
+            } else if (indice >= 30 && indice < 34.9) {
 
                 console.log("Obesidade 1");
-                
+
 
             } else if (indice >= 35 && indice < 39.9) {
 
                 console.log("Obesidade 2");
-                
+
 
             } else if (indice >= 40) {
 
                 console.log("Obesidade 3");
-                
+
             }
 
         }
@@ -50,3 +50,6 @@ function pessoa(nome, sobrenome, a, p) {
 
 
 }
+
+const p1 = pessoa("Chrystine", "Martins", 1.60, 80)
+p1.calculoImc();
