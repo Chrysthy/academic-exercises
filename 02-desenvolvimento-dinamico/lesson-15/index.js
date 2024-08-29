@@ -22,7 +22,18 @@ console.log(funcionario.nome);
 //3 - forma de criar objetos
 function criarPessoa(nome, sobrenome) {
 
-    return { nome, sobrenome };
+    return {
+
+        nome,
+        sobrenome,
+
+        get nomeCompleto() {
+
+            return `${this.nome} ${this.sobrenome}`
+
+        }
+
+    };
 
 };
 
@@ -34,5 +45,9 @@ console.log(p2);
 
 console.log(p1.nome);
 console.log(p2.sobrenome);
+
+console.log(p1.nomeCompleto);
+console.log(p2.nomeCompleto);
+
 
 
