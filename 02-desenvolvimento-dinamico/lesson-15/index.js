@@ -20,12 +20,13 @@ console.log(funcionario.nome);
 
 
 //3 - forma de criar objetos
-function criarPessoa(nome, sobrenome) {
+function criarPessoa(nome, sobrenome, i) {
 
     return {
 
         nome,
         sobrenome,
+        idade = i,
 
         //se tirar o get, na hora de chamar será diferente
         get nomeCompleto() {
@@ -38,8 +39,8 @@ function criarPessoa(nome, sobrenome) {
 
 };
 
-const p1 = criarPessoa("Chrystine", "Martins");
-const p2 = criarPessoa("Noob", "Saibot");
+const p1 = criarPessoa("Chrystine", "Martins", 32);
+const p2 = criarPessoa("Noob", "Saibot", 14);
 
 console.log(p1);
 console.log(p2);
