@@ -1,5 +1,5 @@
 //Objetos
-//forma de criar objetos
+//1 - forma de criar objetos
 
 const pessoa = {
 
@@ -8,4 +8,4 @@ const pessoa = {
 
 }
 
-console.log(pessoa[sobrenome]);
+console.log(pessoa['sobrenome']);
