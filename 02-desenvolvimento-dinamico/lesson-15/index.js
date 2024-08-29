@@ -27,6 +27,7 @@ function criarPessoa(nome, sobrenome) {
         nome,
         sobrenome,
 
+        //se tirar o get, na hora de chamar será diferente
         get nomeCompleto() {
 
             return `${this.nome} ${this.sobrenome}`
@@ -49,5 +50,6 @@ console.log(p2.sobrenome);
 console.log(p1.nomeCompleto);
 console.log(p2.nomeCompleto);
 
-
+//se não tiver o get, terá que chamar como função
+//console.log(p1.nomeCompleto());
 
