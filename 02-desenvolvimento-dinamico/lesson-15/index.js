@@ -28,3 +28,11 @@ function criarPessoa(nome, sobrenome) {
 
 const p1 = criarPessoa("Chrystine", "Martins");
 const p2 = criarPessoa("Noob", "Saibot");
+
+console.log(p1);
+console.log(p2);
+
+console.log(p1.nome);
+console.log(p2.sobrenome);
+
+
