@@ -26,7 +26,7 @@ function criarPessoa(nome, sobrenome, i) {
 
         nome,
         sobrenome,
-        idade = i,
+        idade: i,
 
         //se tirar o get, na hora de chamar será diferente
         get nomeCompleto() {
