@@ -32,3 +32,11 @@ class ContaCliente {
     }
 
 }
+
+let numeroConta = prompt("Digite o número da conta do cliente");
+let saldo = parseFloat(prompt("Digite o saldo do cliente"));
+let debito = parseFloat(prompt("Digite o debito do cliente"));
+let credito = parseFloat(prompt("Digite o credito do cliente"));
+
+let conta = new ContaCliente(numeroConta, saldo, debito, credito);
+conta.verificarSaldo();
