@@ -29,3 +29,6 @@ class pessoa {
 
 p1 = new pessoa("Chrystine", "Martins");
 p1.falar();
+
+p1.nomeCompleto;
+//não precisa usar o parênteses para chamar o get
