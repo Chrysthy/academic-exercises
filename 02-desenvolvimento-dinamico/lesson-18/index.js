@@ -24,3 +24,8 @@ class DispositivoEletronico {
     };
 
 };
+
+//extends = tudo que tem no DispositivoEletronico, vai aproveirar no SmartPhone
+class SmartPhone extends DispositivoEletronico {
+
+}
