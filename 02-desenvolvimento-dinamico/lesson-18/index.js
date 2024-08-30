@@ -41,3 +41,7 @@ class SmartPhone extends DispositivoEletronico {
 
 var s1 = new SmartPhone("Samsung", "Preto", "A71");
 console.log(s1);
+
+s1.ligar();
+s1.ligar();
+//precisar chamar duas vezes, porque a primeira vez não está ligado
