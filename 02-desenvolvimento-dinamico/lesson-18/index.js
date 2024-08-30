@@ -8,4 +8,19 @@ class DispositivoEletronico {
 
     }
 
-}
+    ligar() {
+
+        if(this.ligado) {
+
+            console.log("Já está ligado");
+
+            return;
+            
+
+        };
+
+        this.ligado = true;
+
+    };
+
+};
