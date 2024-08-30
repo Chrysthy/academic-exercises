@@ -14,9 +14,12 @@ class pessoa {
 
     falar() {
 
-        console.log("Olá" + this.nome);
+        console.log("Olá " + this.nome);
 
 
     }
 
 };
+
+p1 = new pessoa("Chrystine", "Martins");
+p1.falar()
