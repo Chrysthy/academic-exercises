@@ -10,12 +10,12 @@ class DispositivoEletronico {
 
     ligar() {
 
-        if(this.ligado) {
+        if (this.ligado) {
 
             console.log("Já está ligado");
 
             return;
-            
+
 
         };
 
@@ -27,5 +27,9 @@ class DispositivoEletronico {
 
 //extends = tudo que tem no DispositivoEletronico, vai aproveirar no SmartPhone
 class SmartPhone extends DispositivoEletronico {
+
+    constructor (nome, cor, modelo) {
+        
+    }
 
 }
