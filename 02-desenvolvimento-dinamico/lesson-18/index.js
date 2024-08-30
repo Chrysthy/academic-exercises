@@ -26,10 +26,13 @@ class DispositivoEletronico {
 };
 
 //extends = tudo que tem no DispositivoEletronico, vai aproveirar no SmartPhone
+//precisa set o constructor do DispositivoEletronico, usando a palavra super
 class SmartPhone extends DispositivoEletronico {
 
-    constructor (nome, cor, modelo) {
-        
+    constructor(nome, cor, modelo) {
+
+        super(nome);
+
     }
 
 }
