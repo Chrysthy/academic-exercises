@@ -19,7 +19,13 @@ class pessoa {
 
     }
 
+    get nomeCompleto() {
+
+        console.log("Olá " + this.nome + this.sobrenome);
+
+    }
+
 };
 
 p1 = new pessoa("Chrystine", "Martins");
-p1.falar()
+p1.falar();
