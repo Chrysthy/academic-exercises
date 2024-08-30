@@ -35,6 +35,9 @@ class SmartPhone extends DispositivoEletronico {
         this.cor = cor;
         this.modelo = modelo;
 
-    }
+    };
 
-}
+};
+
+var s1 = new SmartPhone("Samsung", "Preto", "A71");
+console.log(s1);
