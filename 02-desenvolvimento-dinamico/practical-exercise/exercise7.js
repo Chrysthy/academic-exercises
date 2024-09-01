@@ -37,6 +37,10 @@ function main() {
     
     console.log("Calculadora de Média Ponderada\n");
 
+    const notas = lerNotas();
+    const media = calcularMediaPonderada(notas);
+
+    console.log(`\nA média ponderada do aluno é ${media.toFixed(2)}`);
     
     
 
