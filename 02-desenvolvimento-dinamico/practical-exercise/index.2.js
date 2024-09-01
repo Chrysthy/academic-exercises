@@ -47,12 +47,12 @@ class Gerente extends Funcionario {
 
 };
 
-class Desenvolvedor {
+class Desenvolvedor extends Funcionario {
 
     constructor(nome, idade, cargo, linguagem) {
 
         super(nome, idade, cargo);
-        this.linguagem = linguagem
+        this.linguagem = linguagem;
 
     };
 
@@ -66,3 +66,7 @@ class Desenvolvedor {
 
 const gerente1 = new Gerente('Chrystine Martins', 32, 'Gerente', 'TI');
 const desenvolvedor1 = new Desenvolvedor('Noob Saibot', 18, 'Desenvolvedor', 'JavaScript');
+
+gerente1.seApresentar();
+gerente1.trabalhar();
+gerente1.gerenciar();
