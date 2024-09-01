@@ -19,7 +19,7 @@ class Funcionario {
 
     seApresentar() {
 
-        console.log(`Olá, eu sou ${this.nome}, tenho ${this.idade} e meu cargo na empresa é ${this.cargo}`);
+        console.log(`Olá, eu sou ${this.nome}, tenho ${this.idade} anos e meu cargo na empresa é de ${this.cargo}.`);
 
     };
 
@@ -42,7 +42,7 @@ class Gerente extends Funcionario {
 
     gerenciar() {
 
-        console.log(`${this.nome} está gerenciando o departamento ${this.departamento}`);
+        console.log(`${this.nome} está gerenciando o departamento ${this.departamento}.`);
     };
 
 };
@@ -58,7 +58,7 @@ class Desenvolvedor extends Funcionario {
 
     programar() {
 
-        console.log(`${this.nome} está programando em ${this.linguagem}`);
+        console.log(`${this.nome} está programando em ${this.linguagem}.`);
 
     };
 
