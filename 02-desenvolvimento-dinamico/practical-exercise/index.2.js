@@ -16,19 +16,20 @@ class Funcionario {
         this.idade = idade;
         this.cargo = cargo;
     }
+
+    seApresentar() {
+
+        console.log(`Olá, eu sou ${this.nome}, tenho ${this.idade} e meu cargo na empresa é ${this.cargo}`);
+
+    };
+
+    trabalhar() {
+
+        console.log(`${this.nome} está trabalhando.`);
+
+    };
 };
 
-function seApresentar() {
-
-    console.log(`Olá, eu sou ${this.nome}, tenho ${this.idade} e meu cargo na empresa é ${this.cargo}`);
-
-};
-
-function trabalhar() {
-
-    console.log(`${this.nome} está trabalhando.`);
-
-};
 
 
 class Gerente extends Funcionario {
