@@ -32,3 +32,12 @@ function lerNotas() {
     return notas;
 
 }
+
+function main() {
+    
+    console.log("Calculadora de Média Ponderada\n");
+
+    
+    
+
+}
