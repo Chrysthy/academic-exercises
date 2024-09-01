@@ -63,3 +63,6 @@ class Desenvolvedor {
     };
 
 };
+
+const gerente1 = new Gerente('Chrystine Martins', 32, 'Gerente', 'TI');
+const desenvolvedor1 = new Desenvolvedor('Noob Saibot', 18, 'Desenvolvedor', 'JavaScript');
