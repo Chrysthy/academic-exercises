@@ -29,6 +29,6 @@ function lerNotas() {
         notas.push(nota);
     }
 
-
+    return notas;
 
 }
