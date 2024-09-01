@@ -70,3 +70,7 @@ const desenvolvedor1 = new Desenvolvedor('Noob Saibot', 18, 'Desenvolvedor', 'Ja
 gerente1.seApresentar();
 gerente1.trabalhar();
 gerente1.gerenciar();
+
+desenvolvedor1.seApresentar();
+desenvolvedor1.trabalhar();
+desenvolvedor1.programar();
