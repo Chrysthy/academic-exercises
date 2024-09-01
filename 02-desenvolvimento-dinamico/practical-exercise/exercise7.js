@@ -12,4 +12,23 @@ function calcularMediaPonderada(notas) {
         somaPesos += pesos[i];
         somaNotas += notas[i] * pesos[i];
     }
+
+    const media = somaNotas / somaPesos;
+
+    return media;
+
+};
+
+function lerNotas() {
+    const notas = [];
+
+    for (let i = 0; i < 3; i++) {
+
+        const nota = parseFloat(readline.question(`Digite a nota ${i + 1}: `));
+
+        notas.push(nota);
+    }
+
+
+
 }
