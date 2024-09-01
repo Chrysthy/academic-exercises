@@ -7,3 +7,13 @@ Você precisa criar as classes Funcionario, Gerente e Desenvolvedor. A classe Fu
 Depois de implementar as classes, crie instâncias de um gerente e de um desenvolvedor, definindo valores para seus atributos. Em seguida, chame os métodos apropriados para cada um dos funcionários, exibindo as saídas corretas no console.
 
 */
+
+class Funcionario {
+
+    constructor(nome, idade, cargo) {
+
+        this.nome = nome;
+        this.idade = idade;
+        this.cargo = cargo;
+    }
+}
