@@ -41,7 +41,19 @@ class Gerente extends Funcionario {
     };
 
     gerenciar() {
+
         console.log(`${this.nome} está gerenciando o departamento ${this.departamento}`);
-    }
+    };
+
+};
+
+class Desenvolvedor {
+
+    constructor(nome, idade, cargo, linguagem) {
+
+        super(nome, idade, cargo);
+        this.linguagem = linguagem
+
+    };
 
 }
