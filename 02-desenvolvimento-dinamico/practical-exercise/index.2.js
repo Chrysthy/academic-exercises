@@ -30,3 +30,13 @@ function trabalhar() {
 
 };
 
+
+class Gerente extends Funcionario {
+
+    constructor(nome, idade, cargo, departamento) {
+
+        super(nome, idade, cargo);
+        this.departamento = departamento;
+    }
+
+}
