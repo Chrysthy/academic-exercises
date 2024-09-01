@@ -23,3 +23,10 @@ function seApresentar() {
     console.log(`Olá, eu sou ${this.nome}, tenho ${this.idade} e meu cargo na empresa é ${this.cargo}`);
 
 };
+
+function trabalhar() {
+
+    console.log(`${this.nome} está trabalhando.`);
+
+};
+
