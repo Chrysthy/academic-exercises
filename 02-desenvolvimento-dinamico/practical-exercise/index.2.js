@@ -38,6 +38,10 @@ class Gerente extends Funcionario {
 
         super(nome, idade, cargo);
         this.departamento = departamento;
+    };
+
+    gerenciar() {
+        console.log(`${this.nome} está gerenciando o departamento ${this.departamento}`);
     }
 
 }
