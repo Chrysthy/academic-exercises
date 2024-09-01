@@ -56,4 +56,10 @@ class Desenvolvedor {
 
     };
 
-}
+    programar() {
+
+        console.log(`${this.nome} está programando em ${this.linguagem}`);
+
+    };
+
+};
