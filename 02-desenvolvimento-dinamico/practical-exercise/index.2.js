@@ -16,4 +16,10 @@ class Funcionario {
         this.idade = idade;
         this.cargo = cargo;
     }
-}
+};
+
+function seApresentar() {
+
+    console.log(`Olá, eu sou ${this.nome}, tenho ${this.idade} e meu cargo na empresa é ${this.cargo}`);
+
+};
