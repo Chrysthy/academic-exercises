@@ -5,5 +5,11 @@ function calcularMediaPonderada(notas) {
 
     let somaPesos = 0;
 
-    let somaNotas = 0
+    let somaNotas = 0;
+
+    for (let i = 0; i < notas.length; i++) {
+
+        somaPesos += pesos[i];
+        somaNotas += notas[i] * pesos[i];
+    }
 }
