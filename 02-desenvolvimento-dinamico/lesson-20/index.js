@@ -37,4 +37,3 @@ let number2 = Number.parseInt(prompt("Digite mais um número."));
 let soma = number1 + number2;
 
 alert(`A soma é ${soma}.`);
-
