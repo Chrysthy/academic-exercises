@@ -17,3 +17,7 @@ Guarde o sobrenome digitado em uma variável só que em caixa alta.
 
 Apresente o nome de sobrenome digitado em uma janela de alert.
 */
+
+let nome = prompt("Digite seu nome");
+let sobrenome = prompt("Digite seu sobrenome");
+
