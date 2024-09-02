@@ -21,4 +21,4 @@ Apresente o nome de sobrenome digitado em uma janela de alert.
 let nome = prompt("Digite seu nome?");
 let sobrenome = prompt("Digite seu sobrenome?");
 
-alert(`O seu nome completo é ${nome} ${sobrenome}.`)
+alert(`O seu nome completo é ${nome.toUpperCase()} ${sobrenome.toUpperCase()}.`)
