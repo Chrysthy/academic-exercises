@@ -1,6 +1,6 @@
-function confirma () {
+function confirma() {
 
-    let confirmacao = confirm ("Você deseja excluir esse item?");
+    let confirmacao = confirm("Você deseja excluir esse item?");
 
     if (confirmacao) {
 
