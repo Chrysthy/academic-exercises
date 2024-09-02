@@ -36,5 +36,5 @@ let number1 = prompt("Digite um número.");
 let number2 = prompt("Digite mais um número.");
 let soma = number1 + number2;
 
-
+alert(`A soma é ${soma}.`);
 
