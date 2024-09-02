@@ -31,3 +31,6 @@ Peça ao usuário para digitar um número. Guarde esse número em uma variável 
 Guarde esse número em outra variável. Agora, faça a soma dos números e apresente em um alert.
 
 */
+
+let number1 = prompt("Digite um número.");
+let number2 = prompt("Digite mais um número.")
