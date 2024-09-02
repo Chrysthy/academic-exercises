@@ -33,4 +33,8 @@ Guarde esse número em outra variável. Agora, faça a soma dos números e apres
 */
 
 let number1 = prompt("Digite um número.");
-let number2 = prompt("Digite mais um número.")
+let number2 = prompt("Digite mais um número.");
+let soma = number1 + number2;
+
+
+
