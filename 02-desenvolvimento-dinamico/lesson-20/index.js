@@ -1,0 +1,1 @@
+window.alert("Nosso primeiro Alert")
