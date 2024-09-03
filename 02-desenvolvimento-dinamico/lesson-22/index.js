@@ -22,3 +22,6 @@ elementoSpanClass.style.color = 'yellow';
 
 // elementoSpanClass = document.querySelector("#novospan");
 // elementoSpanClass.style.color = 'yellow';
+
+elementoSeletor = document.querySelectorAll(".mensagem")[3];
+elementoSeletor.innerHTML = "<p> Texto incluído </p>"
