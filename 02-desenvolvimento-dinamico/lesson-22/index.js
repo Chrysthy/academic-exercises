@@ -8,4 +8,8 @@ elemento2 = document.getElementsByTagName('li')[2];
 elemento2.innerText = "SpringBoot";
 
 elementoDiv = documento.getElmentById("conteudo");
-elementoDiv.innerHTML = "<p> Estou colocando a Tag p dentro da div </p>"
+elementoDiv.innerHTML = "<p> Estou colocando a Tag p dentro da div </p>";
+
+elementoDivName = document.getElementsByName("divconteudo")[1];
+elementoDivName.style.color = "blue";
+elementoDivName.innerText = "Estou colocando um texto";
