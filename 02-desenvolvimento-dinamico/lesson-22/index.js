@@ -5,4 +5,7 @@ elemento1 = document.getElementsByTagName('li')[1];
 elemento1.style.background = 'red';
 
 elemento2 = document.getElementsByTagName('li')[2];
-elemento2.innerText = "SpringBoot"
+elemento2.innerText = "SpringBoot";
+
+elementoDiv = documento.getElmentById("conteudo");
+elementoDiv.innerHTML = "<p> Estou colocando a Tag p dentro da div </p>"
