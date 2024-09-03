@@ -16,3 +16,6 @@ elementoDivName.innerText = "Estou colocando um texto";
 
 elementoDivClass = document.getElementsByClassName("mensagem")[2];
 elementoDivClass.innerHTML = '<p> Mais um p dentro da div 2 </p>';
+
+elementoSpanClass = document.querySelector("span.novo");
+elementoSpanClass.style.color = 'yellow';
