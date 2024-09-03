@@ -13,3 +13,6 @@ elementoDiv.innerHTML = "<p> Estou colocando a Tag p dentro da div </p>";
 elementoDivName = document.getElementsByName("divconteudo")[1];
 elementoDivName.style.color = "blue";
 elementoDivName.innerText = "Estou colocando um texto";
+
+elementoDivClass = document.getElementsByClassName("mensagem")[2];
+elementoDivClass.innerHTML = '<p> Mais um p dentro da div 2 </p>';
