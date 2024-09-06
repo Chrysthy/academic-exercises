@@ -1,0 +1,1 @@
+const listEstilo = document.querySelectorAll(".estilo");
