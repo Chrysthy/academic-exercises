@@ -30,11 +30,33 @@
     - Em seguida, git commit -m “tradução do menu lateral”
     - git log (mostra todos os commits do projeto - Do último para o primeiro)
     
-    
-    
-    
-    
-    
+
+    Criando um branch
+
+    - git branch (para verificar qual ramo/branch estamos)
+    - git branch session-about (criando uma branch)
+    - git checkout session-about (mudando para a branch criada)
+    - Depois da modificações, podemos ver o que foi mudado com o git status
+    - Se quiser ver o que exatamente, podemos usar o git diff index.html e para sair usar o q de quit
+    - git add index.html (para confirmar modificações)
+    - git commit -m “Atualização da seção Sobre”
+    - git checkout main (voltamos pro main, mas não tem nenhuma alteração do que fizemos no session-about)
+
+    Para corrijir bugs a partir do branch main. Então precisa estar na branch main quando criar a nova branch
+
+    - Podemos começar criando uma branch: git branch bug-fix
+    - git checkout bug-fix (para entrar nessa branch e fazer as modificações)
+    - Para unir as duas branchs, iremos para a branch main com git checkout main
+    - Depois vamos usar git merge bug-fix (fazendo isso as duas fundiram e fez as atualizações)
+    - Depois da união, ele pode ser eliminado com git branch -d bug-fix
+    - Podemos voltar pra nosso outro branch com git checkout session-about
+    - Verificar as mudanças e ir pra a branch main para fundir as duas: git checkout main
+    - git merge session-about
+    - e para deletar o session-about: git branch -d session-about
+        
+        
+        
+        
     
     
     
