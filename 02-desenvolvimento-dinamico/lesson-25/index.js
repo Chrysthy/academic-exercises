@@ -2,3 +2,7 @@
 function exemploEvento() {
     alert ('mostrando o alert')
 }
+
+function passarMousePorCima() {
+    
+}
