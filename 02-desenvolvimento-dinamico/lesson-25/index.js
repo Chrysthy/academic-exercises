@@ -5,4 +5,8 @@ function exemploEvento() {
 
 function passarMousePorCima() {
     document.getElementById('exemplo').innerHTML = 'Evento com o Mouse over'
+};
+
+function tirarMouse() {
+    document.getElementById('exemplo').innerHTML = 'Evento com mouse out'
 }
