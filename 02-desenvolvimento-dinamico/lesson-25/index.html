@@ -9,15 +9,22 @@
 
 <body>
 
+    <h1 id="exemplo" onmouseover="passarMousePorCima()" onmouseout="tirarMouse()">Troca de Texo</h1>
+
     <p>Clique no botão e veja o resultado</p>
 
     <form action="#">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="nome">
 
         <input type="button" onclick="exemploEvento()" value="Apresentar">
 
     </form>
 
-    <h1 id="exemplo" onmouseover="passarMousePorCima()" onmouseout="tirarMouse()">Troca de Texo</h1>
 
 
     <script src="index.js"></script>
