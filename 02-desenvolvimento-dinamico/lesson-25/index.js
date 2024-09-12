@@ -10,3 +10,9 @@ function passarMousePorCima() {
 function tirarMouse() {
     document.getElementById('exemplo').innerHTML = 'Evento com mouse out'
 }
+
+function novoItem() {
+
+    var campoNome = document.getElementById("nome")
+    alert(`Seu nome é ${campoNome.value}`)
+}
