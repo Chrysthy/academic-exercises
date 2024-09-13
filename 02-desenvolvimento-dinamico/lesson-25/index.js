@@ -16,3 +16,12 @@ function novoItem() {
     var campoNome = document.getElementById("nome")
     alert(`Seu nome é ${campoNome.value}`)
 }
+
+function validarFormulario() {
+
+    var nomePessoa = document.forms['formCadatro']['nome'].value;
+
+    if (nomePessoa === '') {
+        alert('Favor informar seu nome')
+    }
+}
