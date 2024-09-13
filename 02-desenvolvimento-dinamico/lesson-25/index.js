@@ -11,17 +11,21 @@ function tirarMouse() {
     document.getElementById('exemplo').innerHTML = 'Evento com mouse out'
 }
 
-function novoItem() {
+// function novoItem() {
 
-    var campoNome = document.getElementById("nome")
-    alert(`Seu nome é ${campoNome.value}`)
-}
+//     var campoNome = document.getElementById("nome")
+//     alert(`Seu nome é ${campoNome.value}`)
+// }
 
 function validarFormulario() {
 
-    var nomePessoa = document.forms['formCadatro']['nome'].value;
+    var nomePessoa = document.forms['formCadastro']['nome'].value;
 
     if (nomePessoa === '') {
         alert('Favor informar seu nome')
+        event.preventDefault();
+
+    } else {
+        alert('Formulário válido')
     }
 }
