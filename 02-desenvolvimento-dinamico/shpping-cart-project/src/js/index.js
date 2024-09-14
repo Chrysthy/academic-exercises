@@ -1,0 +1,1 @@
+var valorTotal = [0, 0];
