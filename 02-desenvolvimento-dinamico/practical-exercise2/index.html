@@ -11,48 +11,44 @@
 
     <h1>Formulário de Funcionários</h1>
 
-    <form action="#">
+    <form id="formFuncionario">
 
         <label for="nome">Nome</label>
-        <input type="text" name="nome" id="nome">
+        <input type="text" name="nome" id="nome" required>
 
-        <br>
-        <br>
+        <br><br>
 
         <label for="idade">Idade</label>
-        <input type="number" name="idade" id="idade">
+        <input type="number" name="idade" id="idade" required>
 
-        <br>
-        <br>
+        <br><br>
 
         <label for="cargo">Escolha seu Cargo</label>
-
-        <select name="cargo" id="cargo">
+        <select name="cargo" id="cargo" required>
 
             <option value="">Selecione</option>
             <option value="gerente">Gerente</option>
             <option value="desenvolvedor">Desenvolvedor</option>
-
+            
         </select>
 
-        <br>
-        <br>
+        <br><br>
 
         <label for="departamento">Departamento (Somente Gerente)</label>
         <input type="text" name="departamento" id="departamento">
 
-        <br>
-        <br>
+        <br><br>
 
         <label for="linguagem">Linguagem de Programação (Somente Desenvolvedores)</label>
         <input type="text" name="linguagem" id="linguagem">
 
-        <br>
-        <br>
+        <br><br>
 
         <button type="submit">Enviar</button>
 
     </form>
+
+    <p id="resultado"></p>
 
     <script src="index3.js"></script>
 
