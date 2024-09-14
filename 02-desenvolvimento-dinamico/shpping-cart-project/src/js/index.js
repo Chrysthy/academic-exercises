@@ -13,5 +13,7 @@ function adicionarItem(item) {
 
     quantidade.innerHTML = qtd[item];
 
-    total.innerHTML = valorProduto[item].toFixed(2);
+    total.innerHTML = valorTotal[item].toFixed(2);
+
+
 }
