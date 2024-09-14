@@ -6,6 +6,11 @@ body {
     background-color: rgb(204, 199, 199);
 }
 
+.fa-minus-square,
+.fa-plus-square {
+    cursor: pointer;
+}
+
 @media(max-width:991px) {
     #heading {
         padding-left: 50px;
