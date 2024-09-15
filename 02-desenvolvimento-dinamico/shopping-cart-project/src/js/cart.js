@@ -141,6 +141,20 @@ function atualizaNumerosTela(qtd, item) {
 
     qtd.innerHTML = carrinho[item].quantidade
 
-    atualizarTotalProduto(item)
+    atualizaTotalProduto(item)
     atualizaSubtotal()
+}
+
+function atualizaTotalProduto(item) {
+
+    let total = document.getElementById('total' + item)
+    let produto = carrinho[item]
+
+    produto.total = Number.parseFloat(
+
+        produto.quantidade * produto.preco
+    )
+
+    total.innerHTML = produto.total.toFixed(2)
+
 }
