@@ -2,7 +2,7 @@ let carrinho = [];
 
 function start() {
 
-    fetch('https://fakestoreapi.com/products?limit=10')
+    fetch('https://fakestoreapi.com/products?limit=4')
 
         .then(response => response.json())
 
@@ -91,7 +91,7 @@ function atualizarCarrinho() {
 
                 </div>
 
-                <div class="close" onclick="removeProduto(${index})"></div>
+                <div class="close" onclick="removeProduto(${index})">&times;</div>
 
             </div>
         `;
@@ -109,7 +109,7 @@ function adicionarItem(item) {
     atualizaNumerosTela(qtd, item)
 }
 
-function removeItem() {
+function removeItem(item) {
 
     let qtd = document.getElementById('quantidade' + item)
     let produto = carrinho[item]
