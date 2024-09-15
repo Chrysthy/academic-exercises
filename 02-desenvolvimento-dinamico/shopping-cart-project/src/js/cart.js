@@ -171,3 +171,20 @@ function atualizaSubtotal() {
     totalCompra.innerHTML = subtotal.toFixed(2)
 
 }
+
+function removeProduto(item) {
+
+    let carrinhoHTML = document.getElementById('carrinho')
+    let produto = document.getElementById('produto' + item)
+
+    if (confirm("Você tem certeza que deseja excluit o produto?")) {
+
+        carrinho[item].quantidade = 0;
+
+        atualizaSubtotal()
+
+        carrinhoHTML.removeChild(produto)
+
+    }
+
+}
