@@ -119,6 +119,8 @@ function adicionarItem(item) {
 
     produto.quantidade += 1
     qtd.innerHTML = produto.quantidade
+
+    atualizaNumerosTela(qtd, item)
 }
 
 function removeItem() {
@@ -130,5 +132,15 @@ function removeItem() {
 
         produto.quantidade -= 1;
         qtd.innerHTML = produto.quantidade
+
+        atualizaNumerosTela(qtd, item)
     }
+}
+
+function atualizaNumerosTela(qtd, item) {
+
+    qtd.innerHTML = carrinho[item].quantidade
+
+    atualizarTotalProduto(item)
+    atualizaSubtotal()
 }
