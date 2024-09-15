@@ -158,3 +158,16 @@ function atualizaTotalProduto(item) {
     total.innerHTML = produto.total.toFixed(2)
 
 }
+
+function atualizaSubtotal() {
+
+    let totalCompra = document.getElementById('valorTotalCompra')
+    let subtotal = 0
+
+    carrinho.forEach(produto => {
+        subtotal += produto.quantidade * produto.preco
+    })
+
+    totalCompra.innerHTML = subtotal.toFixed(2)
+
+}
