@@ -111,3 +111,12 @@ function atualzarCarrinho() {
     })
 
 }
+
+function adicionarItem(item) {
+
+    let qtd = document.getElementById('quantidade' + item)
+    let produto = carrinho[item]
+
+    produto.quantidade + -1
+    qtd.innerHTML = produto.quantidade
+}
