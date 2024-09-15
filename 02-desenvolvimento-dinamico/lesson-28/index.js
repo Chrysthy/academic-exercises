@@ -31,7 +31,7 @@ function preencherLista(data) {
     const listaContainer = document.getElementById('lista-container');
     const ul = document.createElement('ul');
 
-    data.array.forEach(item => {
+    data.forEach(item => {
 
         const li = document.createElement('li');
         li.textContent = item.name;
