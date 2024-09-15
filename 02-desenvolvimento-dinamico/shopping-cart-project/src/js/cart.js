@@ -17,3 +17,10 @@ function start() {
         })
 
 }
+
+function preencherCarrinho(produtos) {
+    
+    produtos.forEach(data => {
+        
+    });
+}
