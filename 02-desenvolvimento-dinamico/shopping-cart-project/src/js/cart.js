@@ -31,7 +31,7 @@ function preencherCarrinho(produtos) {
         )
     });
 
-    atualzarCarrinho();
+    atualizarCarrinho();
 }
 
 function adicionarAoCarrinho(nome, imgLink, descricao, preco) {
@@ -47,7 +47,7 @@ function adicionarAoCarrinho(nome, imgLink, descricao, preco) {
     })
 }
 
-function atualzarCarrinho() {
+function atualizarCarrinho() {
 
     let carrinhoHTML = document.getElementById('carrinho');
 
@@ -92,7 +92,7 @@ function atualzarCarrinho() {
                 </div>
 
                 <div class="close" onclick="removeProduto(${index})"></div>
-                
+
             </div>
         `;
     });
