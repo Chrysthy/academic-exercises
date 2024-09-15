@@ -117,6 +117,18 @@ function adicionarItem(item) {
     let qtd = document.getElementById('quantidade' + item)
     let produto = carrinho[item]
 
-    produto.quantidade + -1
+    produto.quantidade += 1
     qtd.innerHTML = produto.quantidade
+}
+
+function removeItem() {
+
+    let qtd = document.getElementById('quantidade' + item)
+    let produto = carrinho[item]
+
+    if (produto.quantidade > 0) {
+
+        produto.quantidade -= 1;
+        qtd.innerHTML = produto.quantidade
+    }
 }
