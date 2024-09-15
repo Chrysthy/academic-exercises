@@ -19,8 +19,30 @@ function start() {
 }
 
 function preencherCarrinho(produtos) {
-    
+
     produtos.forEach(data => {
-        
+
+        adicionarAoCarrinho(
+            // tá vindo da api: title, image, etc
+            data.title,
+            data.image,
+            data.description,
+            data.price
+        )
     });
+
+    atualzarCarrinho();
+}
+
+function adicionarAoCarrinho(nome, imgLink, descricao, preco) {
+
+    carrinho.push({
+
+        "nome": nome,
+        "imgLink": imgLink,
+        "descricao": descricao,
+        "preco": Number.parseFloat(preco),
+        "quantidade": 0,
+        "total": 0.0
+    })
 }
