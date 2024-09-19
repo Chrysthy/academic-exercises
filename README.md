@@ -32,6 +32,7 @@
 - Node;
 - Git e GitHub.
 
+<br>
 
 ## ✨ Features
 
@@ -45,6 +46,8 @@
  * BootStrap;
  * Versionamento de código;
  * GitHub pages;
+
+<br>
 
 2. BackEnd
 
@@ -62,9 +65,20 @@
   * Promise;
   * JSON.
 
+<br>
+
+## 💎 Skills
+
+- Productivity and Organization;
+- Techniques and Tools for Projects
+
+<br>
+
 ## 💻 Academic Exercises
 
 - This repository was created to practice the exercises proposed by the professors.
+
+<br>
 
 ## 📜 License
 
