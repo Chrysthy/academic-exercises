@@ -8,6 +8,8 @@
   <a href="#-features">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-features">Skills</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-academic-exercises">Academic Exercises</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-certificates">Certificates</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  
   <a href="#-license">License</a>  
 </p>
 
@@ -78,6 +80,12 @@
 ## 💻 Academic Exercises
 
 - This repository was created to practice the exercises proposed by the professors.
+
+<br>
+
+## 🏆 Certificates
+
+- All the certificates received during the bachelor's program.
 
 <br>
 
