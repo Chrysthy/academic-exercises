@@ -32,6 +32,8 @@
 - CSS;
 - Bootstrap;
 - JavaScript;
+- Java;
+- Portugol;
 - Node;
 - Git e GitHub.
 
