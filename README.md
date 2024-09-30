@@ -39,21 +39,19 @@
 
 ## ✨ Features
 
-1. FrontEnd
+1. First Semester
 
- * Conceitos HTML;
- * Mídia;
- * Tabelas;
- * Forms;
- * Conceitos CSS;
- * BootStrap;
- * Versionamento de código;
- * GitHub pages;
+* **_Desenvolvimento FrontEnd_**
+  * Conceitos HTML;
+  * Mídia;
+  * Tabelas;
+  * Forms;
+  * Conceitos CSS;
+  * BootStrap;
+  * Versionamento de código;
+  * GitHub pages;
 
-<br>
-
-2. BackEnd
-
+* **_Desenvolvimento Dinâmico_**
   * Conceitos e Comandos;
   * Arrays;
   * If;
@@ -67,6 +65,29 @@
   * Exception;
   * Promise;
   * JSON.
+
+* **_Lógica de Programação_**
+  * Introdução a Algoritmos;
+  * Tipos de Dados e Instruções Primitivas;
+  * Variáveis e Constantes;
+  * Entrada, Processamento e Saída;
+  * Estruturas de Decisão;
+  * Estruturas de Repetição;
+  * Vetor;
+  * Matriz;
+  * Procedimentos com e sem Parâmetros;
+  * Funções com e sem Parâmetros;
+  * Visão Geral da Linguagem Java;
+  * Introdução à Linguagem Java;
+  * Estrutura de Controle no Java;
+  * Módulos e matrizes em Java.
+
+
+<br>
+
+2. Second Semester
+
+ 
 
 <br>
 
