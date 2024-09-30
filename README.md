@@ -51,6 +51,8 @@
   * Versionamento de código;
   * GitHub pages;
 
+<br>
+
 * **_Desenvolvimento Dinâmico_**
   * Conceitos e Comandos;
   * Arrays;
@@ -65,6 +67,27 @@
   * Exception;
   * Promise;
   * JSON.
+
+<br>
+
+* **_Experiência do Usuário_**
+  * UX;
+  * UI;
+  * Metodologias de Design;
+  * Fases de Empatia e de Definição;
+  * Fase de Ideação;
+  * Fase de Prototipação;
+  * Fase de Testes;
+  * Princípios, stakeholders e escopo;
+  * Gestão de tempo, custos, riscos e comunicação;
+  * Canvas de projetos;
+  * Execução e encerramento de projetos tradicionais;
+  * Ágil e Scrum;
+  * Planejamento e execução de um projeto ágil;
+  * Kanban e Lean;
+  * UX e agilidade.
+
+<br>
 
 * **_Lógica de Programação_**
   * Introdução a Algoritmos;
