@@ -1,17 +1,23 @@
-algoritmo "Nome do Programa"
+Algoritmo "Nome do Projeto"
 // Disciplina  :  [Linguagem e Lógica de Programação]
 // Professor   : [Nome do Professor]
 // Descrição   : Aqui você descreve o que o programa faz! (função)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : DATA_ATUAL/MES_ATUAL/ANO_ATUAL
-var
+Var
+//seção de Declarações das variáveis
 
-teste: caractere
+Inicio
+//Seção de comandos, procedimentos, funções, operadores, etc
+Escreva("Olá Mundo")
 
-inicio
+Fimalgoritmo
 
-teste <- "Este é um teste."
-escreval ("Variável Teste")
-escreva ("O valor da variável TESTE é: " + teste)
 
-fimalgoritmo
+//*Exercício 1
+Algoritmo "Meu nome"
+
+Inicio
+Escreva("Chrystine Martins")
+
+Fimalgoritmo
