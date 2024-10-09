@@ -8,10 +8,10 @@ resultado: real
 
 Inicio
 Escreval ("Digite o primeiro número")
-leia (num1)
+Leia (num1)
 
 Escreval ("Digite o segundo número")
-leia (num2)
+Leia (num2)
 
 resultado <- num1 * num2
 
