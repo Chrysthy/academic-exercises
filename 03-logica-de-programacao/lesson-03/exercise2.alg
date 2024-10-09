@@ -7,7 +7,7 @@ resultadoMedia: real
 
 
 Inicio
-nomeAlg <- "Soma e Média"
+nomeAlg <- 'Soma e Média'
 resultadoSoma <- 2 + 2 + 2
 resultadoMedia <- resultadoSoma / 3
 
