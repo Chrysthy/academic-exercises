@@ -1,4 +1,4 @@
-Algoritmo "ESCOLHACASO"
+Algoritmo "ESCOLHA"
 
 Var
 OP : Inteiro
