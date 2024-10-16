@@ -28,6 +28,6 @@ Escolha (OP)
 
 FimEscolha
 
-Escreval("O número", Num, " com a opção escolhida é ", Resultado)
+Escreval("O número", Num, " com a opção", OP, " escolhida é", Resultado)
 
 Fimalgoritmo
