@@ -14,7 +14,7 @@ fimpara
      
 //Apresentação do resultado
 para contadorLoop1 de 1 ate 5 faca
-     escreval ("Nome do(a) aluno(a): ", nomes[contadorLoop1])
+    escreval ("Nome do(a) aluno(a): ", nomes[contadorLoop1])
      
 fimpara
 
