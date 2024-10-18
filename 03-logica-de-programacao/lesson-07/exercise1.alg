@@ -11,5 +11,11 @@ para contadorLoop1 de 1 ate 5 faca
     leia (nomes[contadorLoop1])
 fimpara
 
+     
+//Apresentação do resultado
+para contadorLoop1 de 1 ate 5 faca
+     escreval ("Nome do(a) aluno(a): ", nomes[contadorLoop1])
+     
+fimpara
 
 Fimalgoritmo
