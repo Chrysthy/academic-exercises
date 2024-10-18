@@ -17,7 +17,10 @@ para contadorLoop1 de 1 ate 5 faca
     soma <- soma  + notas[contadorLoop1]
 fimpara
 
+//Apresentação do resultado
+para contadorLoop1 de 1 ate 5 faca
+    escreval ("Nome da nota do(a) aluno(a): ", notas[contadorLoop1])
      
-
+fimpara  
 
 Fimalgoritmo
