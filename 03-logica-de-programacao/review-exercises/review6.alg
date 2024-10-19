@@ -1,4 +1,4 @@
-Algoritmo "semnome"
+Algoritmo "escolhaCaso"
 
 Var
 opcao: inteiro
