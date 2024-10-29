@@ -12,5 +12,17 @@ res <- aux
 
 fimprocedimento
 
+var 
+res, n, m: inteiro
 
+inicio
+
+n <- 4
+m <- -9
+
+soma
+
+escreva(res)
+
+fimalgaritmo
 
