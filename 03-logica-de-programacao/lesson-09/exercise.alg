@@ -13,3 +13,8 @@ inicio
 fimprocedimento
 
 
+inicio
+
+    escreval("Mensagem do procedimento: ") mostreNaTela
+
+fimalgaritmo
