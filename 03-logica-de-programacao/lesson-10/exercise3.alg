@@ -21,3 +21,10 @@ Leia(x)
 
 escreval("Escreva o segundo número: ")
 Leia(y)
+
+mult(x, y)
+
+escreva(res)
+
+
+Fimalgoritmo
