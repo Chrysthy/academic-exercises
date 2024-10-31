@@ -11,3 +11,10 @@ aux <- x + y
 res <- aux
 
 fimprocedimento
+
+Var
+res, x, y: inteiro
+
+Inicio
+x <- 4
+y <- 4
