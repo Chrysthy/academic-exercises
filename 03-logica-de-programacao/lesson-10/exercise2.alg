@@ -18,3 +18,10 @@ res, x, y: inteiro
 Inicio
 x <- 4
 y <- 4
+
+soma(x, y)
+
+escreva(res)
+
+
+Fimalgoritmo
