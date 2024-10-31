@@ -11,3 +11,13 @@ aux <- x * y
 res <- aux
 
 fimprocedimento
+
+Var
+res, x, y: inteiro
+
+Inicio
+escreval("Escreva o primeiro número: ")
+Leia(x)
+
+escreval("Escreva o segundo número: ")
+Leia(y)
