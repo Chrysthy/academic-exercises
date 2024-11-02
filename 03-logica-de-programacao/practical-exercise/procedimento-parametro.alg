@@ -24,3 +24,9 @@ Leia(a)
 
 Escreval("Digite o segundo número: ")
 Leia(b)
+
+multiplicacao(a, b)
+
+Escreval("A multiplicação dos números ", a, " e", b, " é: ", resultado)
+
+Fimalgoritmo
