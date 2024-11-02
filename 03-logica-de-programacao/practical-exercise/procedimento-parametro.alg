@@ -1,4 +1,4 @@
-Algoritmo "ProecdimentoParametro"
+Algoritmo "ProcedimentoParametroMultiplicacao"
 
     procedimento multiplicacao (a, b: inteiro)
 
