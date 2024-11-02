@@ -1,14 +1,26 @@
 Algoritmo "ProecdimentoParametro"
 
-procedimento multiplicacao (a, b: inteiro)
+    procedimento multiplicacao (a, b: inteiro)
 
-var
+    var
 
-multi: inteiro
+    multi: inteiro
 
-inicio
+    inicio
 
-multi <- a * b
-resultado <- multi
+    multi <- a * b
+    resultado <- multi
 
-fimprocedimento
+    fimprocedimento
+
+Var
+
+a, b, resultado: inteiro
+
+Inicio
+
+Escreval("Digite o primeiro número: ")
+Leia(a)
+
+Escreval("Digite o segundo número: ")
+Leia(b)
