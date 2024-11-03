@@ -1,16 +1,16 @@
 Algoritmo "FuncaoExemplo2"
 
-funcao multiplicacao: inteiro
+    funcao multiplicacao: inteiro
 
-var
-aux: inteiro
+    var
+    aux: inteiro
 
-inicio
-aux <- a * b
+    inicio
+    aux <- a * b
 
-retorne aux
+    retorne aux
 
-fimfuncao
+    fimfuncao
 
 Var
 a, b, res: inteiro
