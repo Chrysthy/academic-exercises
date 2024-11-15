@@ -20,6 +20,10 @@ class Programa02 {
 
         msg = msg + "quociente da divisão de n1 por n2 = " + div + "\n";
 
+        msg = msg + "raiz quadrada de n1 = " + raiz + "\n";
+
+        msg = msg + "potência de n1 e n2 = " + pot + "\n";
+
         System.out.println(msg);
 
         System.exit(0);
