@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-class Progrma03 {
+class Programa03 {
 
     public static void main(String entrada[])
 
