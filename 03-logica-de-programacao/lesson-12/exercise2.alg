@@ -1,9 +1,22 @@
 Algoritmo "FuncaoSomaParametro"
 
-funcao soma (x,y: inteiro): inteiro   
-// os : inteiro, quer dizer que vai retorar algo do tipo inteiro
+    funcao soma (x,y: inteiro): inteiro   
+    inicio
+    retorne x + y
 
-inicio
-retorne x + y
+    fimfuncao
 
-fimfuncao
+Var
+n, m, res: inteiro
+
+
+Inicio
+n <- 4
+m <-9
+
+res <- soma (n, m)
+
+escreval(res)
+
+
+Fimalgoritmo
