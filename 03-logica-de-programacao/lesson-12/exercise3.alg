@@ -1,26 +1,26 @@
 Algoritmo "FuncaoMultiplicacaoParametro"
 
-    funcao multiplicacao (x,y: inteiro): inteiro
+        funcao multiplicacao (x,y: inteiro): inteiro
 
-        inicio
-        retorne x * y
+            inicio
+            retorne x * y
 
-    fimfuncao
+        fimfuncao
 
-Var
-x, y, res: inteiro
+    Var
+    x, y, res: inteiro
 
 
-Inicio
-escreval("Digite o primeiro número: ")
-Leia (x)
+    Inicio
+    escreval("Digite o primeiro número: ")
+    Leia (x)
 
-escreval ("Digite o segundo número: ")
-Leia (y)
+    escreval ("Digite o segundo número: ")
+    Leia (y)
 
-res <- multiplicacao (x, y)
+    res <- multiplicacao (x, y)
 
-escreval("A multiplicação dos dois números é: ", res)
+    escreval("A multiplicação dos dois números é: ", res)
 
 
 Fimalgoritmo
