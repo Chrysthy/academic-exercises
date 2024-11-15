@@ -23,7 +23,7 @@ class Programa04 {
 
     
 
-        JOptionPane.showMessageDialog(null, msg);
+        JOptionPane.showMessageDialog(null, msg,  "O resultado é: ", JOptionPane.INFORMATION_MESSAGE);
 
         System.exit(0);
 
