@@ -15,8 +15,10 @@ class Programa02 {
         pot = Math.pow(n1, n2);
 
         msg = "n1  = " + n1 + " n2 = " + n2 + "\n";
+
         msg = msg + "resto da divisão de n1  por n2 = " + mod + "\n";
-       
+
+        msg = msg + "quociente da divisão de n1 por n2 = " + div + "\n";
 
         System.out.println(msg);
 
