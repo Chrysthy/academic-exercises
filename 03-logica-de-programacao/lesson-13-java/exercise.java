@@ -14,11 +14,14 @@ class MeuPrimeiroProgramaJava {
         String frase = "Chrystine Vasconcelos";
         boolean VF = true;
 
-        if (VF == true) {
+        if (VF == true) 
+        {
 
             System.out.printIn("Eu sou a " + frase + ", tenho " + inteiro + "anos e tenho " + real + "m de altura.");
 
         }
+
+        System.exit(0);
 
     }
 }
