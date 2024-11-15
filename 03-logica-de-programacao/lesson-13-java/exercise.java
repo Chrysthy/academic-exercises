@@ -8,7 +8,7 @@ class MeuPrimeiroProgramaJava {
 
     {
         //declaraçãpo de variáveis
-        int inteiro - 32;
+        int inteiro = 32;
         char caractere = 'F';
         double real = 1.60;
         String frase = "Chrystine Vasconcelos";
@@ -17,7 +17,7 @@ class MeuPrimeiroProgramaJava {
         if (VF == true) 
         {
 
-            System.out.printIn("Eu sou a " + frase + ", tenho " + inteiro + "anos e tenho " + real + "m de altura.");
+            System.out.println("Eu sou a " + frase + ", tenho " + inteiro + " anos e tenho " + real + " m de altura.");
 
         }
 
