@@ -41,5 +41,11 @@ class Prog06 {
                 JOptionPane.showMessageDialog(null, "Opção inválida");
         }
 
+        if (op >= '1' && op <= '3') {
+
+            JOptionPane.showMessageDialog(null, msg);
+        }
+
+        System.exit(0);
     }
 }
