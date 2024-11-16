@@ -13,6 +13,17 @@ class Exercise3 {
 
         op = JOptionPane.showInputDialog(msgEntr).charAt(0);
 
- 
+        switch (op) {
+            case '1':
+
+                if (n1 % 2 == 0 && n2 % 2 == 0) {
+
+                    soma = n1 + n2;
+                    msg = msg + "A soma de: " + n1 + " por " + n2 + " = " + soma + "\n\n";
+                }
+
+                break;
+
+
     }
 }
