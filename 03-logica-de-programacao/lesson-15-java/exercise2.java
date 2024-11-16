@@ -13,10 +13,19 @@ class ProgRepeticao {
         op = (JOptionPane.showInputDialog(msgEntr)).charAt(0);
 
         switch (op) {
-           
-        }
 
+            case '1': {
 
+                msg = msg + "Tabuada do " + Tabuada + " com for:\n\n";
+
+                for (int i = 1; i <= 10; i = i + 1) {
+
+                    msg = msg + Tabuada + " X " + i + " = " + Tabuada * i + "\n";
+                }
+
+                break;
+
+            }
 
 
 
