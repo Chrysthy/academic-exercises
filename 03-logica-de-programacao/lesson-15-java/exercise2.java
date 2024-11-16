@@ -43,7 +43,28 @@ class ProgRepeticao {
                 break;
             }
 
- 
+            case '3': {
+
+                msg = msg + "Tabuada do " + Tabuada + " com do while:\n\n";
+
+                int i = 1;
+
+                do {
+
+                    msg = msg + Tabuada + " X " + i + " = " + Tabuada * i + "\n";
+
+                    i = i + 1;
+
+                } while (i <= 10);
+
+                break;
+            }
+
+            default:
+                JOptionPane.showMessageDialog(null, "Opção inválida!");
+        }
+
+     
 
     }
 
