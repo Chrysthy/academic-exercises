@@ -13,6 +13,19 @@ class Prog06 {
 
         op = JOptionPane.showInputDialog(msgEntr).charAt(0);
 
+        switch (op) {
+
+            case '1': {
+
+                if ( n1 > 0 && n2 > 0) {
+
+                    p = n1 * n2;
+                    msg = msg + "Produto de: " + n1 + " por " + n2 + " = " + p + "\n\n";
+                }
+
+                break;
+            }
+
  
     }
 }
