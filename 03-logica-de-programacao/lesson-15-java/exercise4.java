@@ -26,6 +26,20 @@ class Prog06 {
                 break;
             }
 
- 
+            case '2': {
+
+                for (int i = 1; i <= n2; i = i + 1) {
+                    p = p * n1;
+                }
+
+                msg = msg + "Produtoria de " + n1 + ", " + n2 + " vezes é " + p + "\n\n";
+
+                break;
+            }
+
+            default:
+                JOptionPane.showMessageDialog(null, "Opção inválida");
+        }
+
     }
 }
