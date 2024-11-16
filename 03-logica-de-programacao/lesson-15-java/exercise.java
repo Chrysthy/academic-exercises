@@ -5,7 +5,7 @@ class ProgDecisao {
 
         int num;
         char op = 0;
-        String msg = "", msgEntr = "Digite 1 para par ou ímpar \n Digite 2 para positivo ou negativo";
+        String msg = "", msgEntr = "Digite 1 para par ou ímpar\nDigite 2 para positivo ou negativo";
 
         num = Integer.parseInt(JOptionPane.showInputDialog("Digite um número inteiro:"));
 
@@ -14,11 +14,11 @@ class ProgDecisao {
         switch (op) {
             case '1': {
 
-                if (num % 3 == 0) {
-                    msg = msg + num + "é par. \n";
+                if (num % 2 == 0) {
+                    msg = msg + num + " é par. \n";
 
                 } else {
-                    msg = msg + num + "é ímpar. \n";
+                    msg = msg + num + " é ímpar. \n";
                 }
 
                 break;
@@ -26,10 +26,10 @@ class ProgDecisao {
 
             case '2': {
                 if (num > 0) {
-                    msg = msg + num + "é positivo. \n";
+                    msg = msg + num + " é positivo. \n";
 
                 } else {
-                    msg = msg + num + "é negativo. \n";
+                    msg = msg + num + " é negativo. \n";
                 }
             }
 
