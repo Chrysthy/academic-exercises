@@ -35,6 +35,12 @@ class ProgDecisao {
 
         }
 
+        if(op=='1'||op=='2')
+        {
+            JOptionPane.showMessageDialog(null, msg);
+        }
+
     }
+
 
 }
