@@ -27,7 +27,23 @@ class ProgRepeticao {
 
             }
 
+            case '2': {
 
+                msg = msg + "Tabuada do " + Tabuada + " com while:\n\n";
+
+                int i = 1;
+
+                while (i <= 10) {
+
+                    msg = msg + Tabuada + " X " + i + " = " + Tabuada * i + "\n";
+
+                    i = i + 1;
+                }
+
+                break;
+            }
+
+ 
 
     }
 
