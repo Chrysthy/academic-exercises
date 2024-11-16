@@ -28,6 +28,8 @@ class Prog06 {
 
             case '2': {
 
+                p = 1;
+
                 for (int i = 1; i <= n2; i = i + 1) {
                     p = p * n1;
                 }
