@@ -24,6 +24,20 @@ class Exercise3 {
 
                 break;
 
+            case '2':
 
+                for (int i = n1; i <= n2; i = i + 1) {
+                    soma = soma + n1;
+                }
+
+                msg = msg + "A somatória de " + n1 + ", " + n2 + " vezes é " + soma + "\n\n";
+
+                break;
+
+            default:
+                JOptionPane.showMessageDialog(null, "Opção inválida");
+        }
+
+     
     }
 }
