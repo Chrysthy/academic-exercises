@@ -25,6 +25,16 @@ class Prog07 {
 
     }
 
-    
+    public static void main(String entrada[]) {
+
+        int r;
+
+        soma();
+        r = produto();
+
+        JOptionPane.showMessageDialog(null, "O produto é = " + produto());
+
+        System.exit(0);
+    }
 
 }
