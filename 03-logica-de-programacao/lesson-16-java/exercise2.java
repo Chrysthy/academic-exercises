@@ -40,6 +40,26 @@ class ProgMod {
         
     }
 
-   
+    public static void main(String entrada[]) {
+
+        int n1, n2, s;
+        double r;
+
+        soma();
+
+        n1 = Integer.parseInt(JOptionPane.showInputDialog("Digite um número: "));
+        n2 = Integer.parseInt(JOptionPane.showInputDialog("Digite outro número: "));
+
+        subtracao(n1, n2);
+        s = produto();
+
+        JOptionPane.showMessageDialog(null, "O produto é: " + s);
+
+        r = divisao(n1, n2);
+        JOptionPane.showMessageDialog(null, "A divisão é: " + r);
+
+        System.exit(0);
+
+    }
 
 }
