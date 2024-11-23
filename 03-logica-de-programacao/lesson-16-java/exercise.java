@@ -30,6 +30,9 @@ class ProgMatriz {
             msg = msg + "\n";
         }
 
-       
+        JOptionPane.showMessageDialog(null, msg);
+
+        System.exit(0);
+
     }
 }
