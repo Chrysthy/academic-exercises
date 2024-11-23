@@ -16,5 +16,20 @@ class ProgMatriz {
 
         JOptionPane.showMessageDialog(null, msg);
 
+        msg = "Matriz = \n\n";
+        for (int i = 0; i < matriz.length; i++) {
+
+            for (int j = 0; j < matriz[i].length; j++) {
+
+                matriz[i][j] = Integer
+                        .parseInt(JOptionPane.showInputDialog("Digite um inteiro para a posição " + i + " e " + j));
+
+                msg = msg + matriz[i][j] + " ";
+            }
+
+            msg = msg + "\n";
+        }
+
+       
     }
 }
