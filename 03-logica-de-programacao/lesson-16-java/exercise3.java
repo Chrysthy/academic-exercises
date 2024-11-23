@@ -13,6 +13,18 @@ class Prog07 {
 
     }
 
+    public static int produto() {
+
+        int p = 1, vet[] = { 1, 2, 3, 4, 5, };
+
+        for (int i = 0; i < vet.length; i++) {
+            p = p * vet[i];
+        }
+
+        return p;
+
+    }
+
     
 
 }
