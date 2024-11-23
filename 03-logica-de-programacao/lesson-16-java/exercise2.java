@@ -31,5 +31,15 @@ class ProgMod {
 
     }
 
+    public static double divisao(int x, int y) {
+        double d;
+
+        d = (double) x / (double) y;
+
+        return d;
+        
+    }
+
    
+
 }
