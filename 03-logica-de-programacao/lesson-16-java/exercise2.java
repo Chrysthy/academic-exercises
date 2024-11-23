@@ -12,5 +12,14 @@ class ProgMod {
 
     }
 
+    public static void subtracao(int x, int y) {
+        int s;
 
+        s = x - y;
+
+        JOptionPane.showMessageDialog(null, "A subtração é: " + s);
+
+    }
+
+    
 }
