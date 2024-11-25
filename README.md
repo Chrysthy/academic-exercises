@@ -43,33 +43,8 @@
 1. First Semester
 
 * **_Desenvolvimento FrontEnd_**
-  * Conceitos HTML;
-  * Mídia;
-  * Tabelas;
-  * Forms;
-  * Conceitos CSS;
-  * BootStrap;
-  * Versionamento de código;
-  * GitHub pages;
-
-<br>
 
 * **_Desenvolvimento Dinâmico_**
-  * Conceitos e Comandos;
-  * Arrays;
-  * If;
-  * Switch;
-  * For;
-  * While;
-  * Strings;
-  * Functions;
-  * Classes;
-  * DOM;
-  * Exception;
-  * Promise;
-  * JSON.
-
-<br>
 
 * **_Experiência do Usuário_**
   * UX;
