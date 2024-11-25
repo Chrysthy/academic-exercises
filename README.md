@@ -50,11 +50,25 @@
 
 * _Lógica de Programação_
 
+* _Empreendedorismo e Criação de Novos Negócios_
+
+* _PEX I - Projeto de Extensão_
+
 <br>
 
 **Second Semester**
 
- 
+* _Design de Software_
+
+* _Programação I_
+
+* _Estrutura de Dados para Sistemas Inteligentes_
+
+* _Desenvolvimento de Aplicações de Banco de Dados_
+
+* _Prática Integradora Tecnologias Disruptivas_
+
+* _PEX II - Projeto de Extensão_
 
 <br>
 
