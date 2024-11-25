@@ -40,51 +40,19 @@
 
 ## ✨ Features
 
-1. First Semester
+**First Semester**
 
-* **_Desenvolvimento FrontEnd_**
+* _Desenvolvimento FrontEnd_
 
-* **_Desenvolvimento Dinâmico_**
+* _Desenvolvimento Dinâmico_
 
-* **_Experiência do Usuário_**
-  * UX;
-  * UI;
-  * Metodologias de Design;
-  * Fases de Empatia e de Definição;
-  * Fase de Ideação;
-  * Fase de Prototipação;
-  * Fase de Testes;
-  * Princípios, stakeholders e escopo;
-  * Gestão de tempo, custos, riscos e comunicação;
-  * Canvas de projetos;
-  * Execução e encerramento de projetos tradicionais;
-  * Ágil e Scrum;
-  * Planejamento e execução de um projeto ágil;
-  * Kanban e Lean;
-  * UX e agilidade.
+* _Experiência do Usuário_
+
+* _Lógica de Programação_
 
 <br>
 
-* **_Lógica de Programação_**
-  * Introdução a Algoritmos;
-  * Tipos de Dados e Instruções Primitivas;
-  * Variáveis e Constantes;
-  * Entrada, Processamento e Saída;
-  * Estruturas de Decisão;
-  * Estruturas de Repetição;
-  * Vetor;
-  * Matriz;
-  * Procedimentos com e sem Parâmetros;
-  * Funções com e sem Parâmetros;
-  * Visão Geral da Linguagem Java;
-  * Introdução à Linguagem Java;
-  * Estrutura de Controle no Java;
-  * Módulos e matrizes em Java.
-
-
-<br>
-
-2. Second Semester
+**Second Semester**
 
  
 
