@@ -75,7 +75,8 @@
 ## 💎 Skills
 
 - Productivity and Organization;
-- Techniques and Tools for Projects
+- Techniques and Tools for Projects;
+- Soft Skills
 
 <br>
 
