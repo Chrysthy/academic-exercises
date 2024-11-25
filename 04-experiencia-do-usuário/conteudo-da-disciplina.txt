@@ -1,4 +1,4 @@
-Conteúdo da Discipina
+Conteúdo da Disciplina
 
 * UX;
 * UI;
