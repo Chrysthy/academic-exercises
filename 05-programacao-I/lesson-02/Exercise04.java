@@ -14,6 +14,7 @@ public class Exercise04 {
 		System.out.println(valor / 2);
 		System.out.println(valor % 2);
 		
+		teclado.close();
 	}
 
 }
