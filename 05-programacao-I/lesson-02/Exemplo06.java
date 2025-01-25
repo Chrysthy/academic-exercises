@@ -3,18 +3,17 @@ public class Exemplo06 {
 
 	public static void main(String[] args) {
 		
-		int valor1, valor2;
-		
-		valor1 = 10;
-		valor2 = 5;
-		
-		
-		System.out.println(valor1 == valor2);
-		System.out.println(valor1 != valor2);
-		System.out.println(valor1 >= valor2);
-		System.out.println(valor1 <= valor2);
-		System.out.println(valor1 > valor2);
-		System.out.println(valor1 < valor2);
+		int valor = 8;
+
+		if (valor == 9) {
+
+			System.out.println("Valor é igual a 8");
+
+		} else {
+
+			System.out.println("Valor é diferente de 8");
+		}
+
 	}
 
 }
