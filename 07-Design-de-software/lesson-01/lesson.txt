@@ -1,0 +1,3 @@
+**Diagrama de Casos de Uso**
+
+O diagrama de casos de uso é composto por dois elementos principais: atores e casos de uso. Os atores representam usuários ou stakeholders, enquanto os casos de uso descrevem interações específicas. A notação ajuda a visualizar requisitos funcionais no contexto de interação.
