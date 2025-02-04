@@ -27,15 +27,16 @@
 
 ## 🛠 Technologies / Tools
 
+- [Astah](https://astah.net/products/astah-uml/);
+- [Android Studio](https://developer.android.com/studio?hl=pt-br);
+- [Eclipse](https://www.eclipse.org/downloads/packages/release/2024-12/r/eclipse-ide-java-developers);
+- [Portugol](https://sourceforge.net/projects/visualg30/);
 - HTML;
 - CSS;
 - Bootstrap;
 - JavaScript;
 - Java;
-- [Portugol](https://sourceforge.net/projects/visualg30/);
 - Node;
-- [Astah](https://astah.net/products/astah-uml/);
-- [Android Studio](https://developer.android.com/studio?hl=pt-br);
 - Git e GitHub.
 
 <br>
