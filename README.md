@@ -25,7 +25,7 @@
 
 <br>
 
-## 🛠 Technologies
+## 🛠 Technologies / Tools
 
 - HTML;
 - CSS;
@@ -34,8 +34,8 @@
 - Java;
 - [Portugol](https://sourceforge.net/projects/visualg30/);
 - Node;
-- [Astah](https://astah.net/products/astah-uml/)
-- [Android Studio](https://developer.android.com/studio?hl=pt-br)
+- [Astah](https://astah.net/products/astah-uml/);
+- [Android Studio](https://developer.android.com/studio?hl=pt-br);
 - Git e GitHub.
 
 <br>
