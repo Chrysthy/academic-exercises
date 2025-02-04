@@ -34,6 +34,7 @@
 - Java;
 - [Portugol](https://sourceforge.net/projects/visualg30/);
 - Node;
+- [Astah](https://astah.net/products/astah-uml/)
 - Git e GitHub.
 
 <br>
