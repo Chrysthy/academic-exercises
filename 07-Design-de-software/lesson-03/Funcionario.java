@@ -3,12 +3,11 @@ public class Funcionario {
     public String cargo;
     private float salario;
 
-
-    public float calcularBonus(){
-
+    public float calcularBonus() {
+        return 0;
     }
 
-    private float aumentarSalario(){
-
+    private float aumentarSalario() {
+        return 0;
     }
 }
