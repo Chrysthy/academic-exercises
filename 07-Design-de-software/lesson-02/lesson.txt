@@ -1,0 +1,7 @@
+?Criação de Classes no Asta
+No Asta, o Diagrama de Classe é acessado pelo menu Diagrama. A classe é criada com um duplo clique, e atributos são adicionados através da guia Atributo. É importante definir os tipos corretos para cada atributo, seguindo as melhores práticas de desenvolvimento.
+
+
+?Métodos e Encapsulamento
+
+O encapsulamento é respeitado utilizando métodos Getters e Setters para acessar e modificar atributos. Os métodos devem ter tipos de retorno adequados e parâmetros definidos. A visibilidade dos atributos deve ser privada, enquanto os métodos podem ser públicos.
