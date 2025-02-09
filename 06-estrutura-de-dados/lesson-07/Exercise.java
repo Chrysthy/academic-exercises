@@ -30,3 +30,21 @@ public void Empilhar(int elemento) {
         System.out.println("Pilha cheia");
     }
 }
+
+public int Desempilhar() {
+    
+    int desempilhado = 0;
+
+    if (PilhaVazia()) {
+
+        System.out.println("Oilha Vazia");
+        
+    } else {
+
+        desempilhado = vetor[topo];
+        topo = topo - 1;
+
+    }
+
+    return desempilhado;
+}
