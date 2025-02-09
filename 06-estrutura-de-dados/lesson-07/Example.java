@@ -11,7 +11,7 @@ public boolean PilhaVazia() {
 
 public boolean PilhaCheia() {
 
-    if (topo >= tamanho -1) {
+    if (topo >= tamanho - 1) {
         return true;
 
     } else {
@@ -32,13 +32,13 @@ public void Empilhar(int elemento) {
 }
 
 public int Desempilhar() {
-    
+
     int desempilhado = 0;
 
     if (PilhaVazia()) {
 
         System.out.println("Pilha Vazia");
-        
+
     } else {
 
         desempilhado = vetor[topo];
@@ -67,6 +67,6 @@ public void MostrarPilha() {
 
     for (i = topo; i >= 0; i--) {
 
-        System.out.println("Elemento " + vetor[i] + "posição " + i +  " da pilha");
+        System.out.println("Elemento " + vetor[i] + "posição " + i + " da pilha");
     }
 }
