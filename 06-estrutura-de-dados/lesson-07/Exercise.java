@@ -1,3 +1,5 @@
+//pilha de números inteiros - homogênea
+
 class Pilha {
 
     int tamanho;
@@ -10,4 +12,9 @@ class Pilha {
         tamanho = tam;
         vetor = new int[tam];
     }
+
+
+
+
+
 }
