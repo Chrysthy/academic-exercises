@@ -37,7 +37,7 @@ public int Desempilhar() {
 
     if (PilhaVazia()) {
 
-        System.out.println("Oilha Vazia");
+        System.out.println("Pilha Vazia");
         
     } else {
 
@@ -58,5 +58,15 @@ public void ElementoTopo() {
     } else {
 
         System.out.println("Pilha vazia");
+    }
+}
+
+public void MostrarPilha() {
+
+    int i;
+
+    for (i = topo; i >= 0; i--) {
+
+        System.out.println("Elemento " + vetor[i] + "posição " + i +  " da pilha");
     }
 }
