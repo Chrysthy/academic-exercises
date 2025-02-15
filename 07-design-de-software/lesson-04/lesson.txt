@@ -1,0 +1,3 @@
+Declara os atributos de uma classe como privados.
+
+Fornece métodos públicos  (getters and setters) para acessar e modificar esses  atributos
