@@ -14,7 +14,7 @@ public class ExemploMetodos {
 		System.out.println(nome.isEmpty());
 		System.out.println(nome.indexOf("tine"));
 		System.out.println(nome.contains("tine"));
-		System.out.println(nome.concat("de Oliveira"));
+		System.out.println(nome.concat(" de Oliveira"));
 		System.out.println(nome.equals("chrystine martins"));
 		System.out.println(nome.equalsIgnoreCase("chrystine martins"));
 
