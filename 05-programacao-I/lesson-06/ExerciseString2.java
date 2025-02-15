@@ -13,7 +13,7 @@ public class ExerciseString2 {
 		
 		
 		
-		if(nome.equals(sobrenome)) {
+		if(nome.equals(nomeGuerra)) {
 			
 			System.out.println("Nome Iguais");
 			
