@@ -10,4 +10,14 @@ public boolean FilaVazia () {
     }
 }
 
-public boolean FilaCheia
+public boolean FilaCheia () {
+
+    if(total >= tamanho) {
+
+        return true;
+
+    } else {
+
+        return false;
+    }
+}
