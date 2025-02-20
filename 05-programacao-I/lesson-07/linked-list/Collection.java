@@ -13,7 +13,8 @@ public class Collection {
 		listaNomes.add("Noob");
 		listaNomes.add("Leon");
 		listaNomes.add("Collin");
-		listaNomes.add("Pisguilo");
+        listaNomes.add("Pisguilo");
+        listaNomes.add(0, "Mileena");
 
 		System.out.println("Antes");
 		
