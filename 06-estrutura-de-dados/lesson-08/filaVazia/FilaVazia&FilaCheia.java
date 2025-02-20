@@ -9,3 +9,5 @@ public boolean FilaVazia () {
         return false;
     }
 }
+
+public boolean FilaCheia
