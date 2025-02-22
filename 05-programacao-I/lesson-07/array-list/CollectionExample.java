@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Collection {
+public class CollectionExample {
 
 	public static void main(String[] args) {
 
