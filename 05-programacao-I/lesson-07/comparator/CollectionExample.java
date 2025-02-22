@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.Comparator;
 
 
-public class Collection {
+public class CollectionExample {
 
 	public static void main(String[] args) {
 
