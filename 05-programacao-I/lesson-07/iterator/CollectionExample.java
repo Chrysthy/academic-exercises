@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class Collection {
+public class CollectionExample {
 
     public static void main(String[] args) {
 
