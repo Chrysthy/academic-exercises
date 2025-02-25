@@ -18,7 +18,7 @@ public class Example1 {
 		LinkedHashMap<String, String> novaListaNomes = new LinkedHashMap<>(listaNomes);
 		novaListaNomes.put("Jubis", "Jujuba");
 		
-		System.out.println("LinkedHashMap2 " + novaListaNomes);
+		System.out.println("Nova LinkedHashMap " + novaListaNomes);
 
 	}
 
