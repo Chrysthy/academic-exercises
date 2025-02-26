@@ -32,6 +32,7 @@
 - [Eclipse](https://www.eclipse.org/downloads/packages/release/2024-12/r/eclipse-ide-java-developers);
 - [Portugol](https://sourceforge.net/projects/visualg30/);
 - [PostgreSQL](https://www.postgresql.org/download/);
+- [PostgreSQL JDBC Driver](https://jdbc.postgresql.org/);
 - HTML;
 - CSS;
 - Bootstrap;
