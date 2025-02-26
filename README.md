@@ -31,6 +31,7 @@
 - [Android Studio](https://developer.android.com/studio?hl=pt-br);
 - [Eclipse](https://www.eclipse.org/downloads/packages/release/2024-12/r/eclipse-ide-java-developers);
 - [Portugol](https://sourceforge.net/projects/visualg30/);
+- [PostgreSQL](https://www.postgresql.org/download/);
 - HTML;
 - CSS;
 - Bootstrap;
