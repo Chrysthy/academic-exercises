@@ -1,0 +1,32 @@
+*Componentes do Diagrama de Estado
+
+1. Estados: Representam as diferentes condições em que um objeto pode estar. No caso do semáforo, temos:
+
+    - Estado Verde: O semáforo permite que os veículos passem.
+
+    - Estado Amarelo: O semáforo alerta os veículos para que se preparem para parar.
+
+    - Estado Vermelho: O semáforo indica que os veículos devem parar.
+
+2. Transições: Representam as mudanças de um estado para outro, geralmente causadas por eventos temporais. Cada transição deve ser claramente definida, incluindo:
+
+    - Condições Temporais**: Quanto tempo um estado deve durar antes de mudar. Por exemplo:
+
+        - O estado verde dura 60 segundos.
+
+        - O estado amarelo dura 5 segundos.
+
+        - O estado vermelho dura 55 segundos
+        
+3. Eventos: São os gatilhos que causam a mudança de estado. No caso do semáforo, a passagem do tempo é o evento que provoca as transições.
+
+
+?Para criar um diagrama de estado no Astah, siga estas etapas:
+
+1. Identificação dos Estados: Comece identificando todos os estados possíveis do semáforo.
+
+2. Desenho dos Estados: No Astah, crie um retângulo para cada estado. Você pode fazer isso clicando duas vezes na tela em branco ou selecionando o objeto estado.
+
+3. Desenho das Transições: Use setas para indicar as transições entre os estados. As setas devem ser rotuladas com as condições que causam a mudança de estado.
+
+4. Condições Temporais: Inclua as durações de cada estado nas transições, especificando quanto tempo cada estado deve ser mantido antes de mudar.
