@@ -1,18 +1,21 @@
 !Componentes Principais
 
-Objetos:
-    - **Usuário**: A pessoa que deseja reservar um livro.
-    - **Sistema de Biblioteca**: O sistema que gerencia as operações da biblioteca.
-    - **Catálogo de Livros**: Um subsistema que contém informações sobre os livros disponíveis.
-    - **Banco de Dados**: Onde as informações de reservas e disponibilidade de livros são armazenadas.
+?Objetos:
+    - Usuário: A pessoa que deseja reservar um livro.
 
-Interações**:
+    - Sistema de Biblioteca: O sistema que gerencia as operações da biblioteca.
+
+    - Catálogo de Livros: Um subsistema que contém informações sobre os livros disponíveis.
+
+    - Banco de Dados: Onde as informações de reservas e disponibilidade de livros são armazenadas.
+
+?Interações:
     - O usuário solicita a reserva de um livro através da interface do sistema de biblioteca.
     - O sistema verifica a disponibilidade do livro no catálogo.
     - O catálogo retorna a disponibilidade ao sistema de biblioteca.
     - Se o livro estiver disponível, o sistema confirma a reserva; se não, informa a indisponibilidade.
 
-Para criar o diagrama de sequência no Astah, siga estas etapas:
+!Para criar o diagrama de sequência no Astah, siga estas etapas:
 
 1. Identifique os Objetos: Liste os objetos que participarão da interação.
 
