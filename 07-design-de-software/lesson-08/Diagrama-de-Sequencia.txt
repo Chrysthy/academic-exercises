@@ -1,0 +1,14 @@
+*Elementos Principais
+
+1. Objetos: Representam as entidades que interagem no sistema. No seu exemplo, temos:
+    - Usuário
+    - Interface de Login
+    - Sistema de Autenticação
+
+2. Lifelines: Linhas verticais que representam a existência de um objeto ao longo do tempo. Cada objeto tem sua própria lifeline.
+
+3. Mensagens: As interações entre os objetos, que podem ser síncronas ou assíncronas. Por exemplo:
+    - O usuário envia suas credenciais para a interface de login.
+    - A interface de login envia as credenciais para o sistema de autenticação.
+
+4. Caixas de Ativação: Mostram o período em que um objeto está ativo ou em execução. Elas são representadas como retângulos verticais sobre as lifelines.
