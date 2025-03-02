@@ -4,8 +4,8 @@ public class Principal5 {
 
     public static void main(String[] args) {
 
-        Scanner teclado = new Scanner(System.in);
-        int opcao;
+        try (Scanner teclado = new Scanner(System.in)) {
+            int opcao;
 
         do {
             System.out.println("Digite o número 1 ou 2:");
@@ -38,7 +38,9 @@ public class Principal5 {
             }
 
         } while (true);
+        
+        }
       
-    }
+    } 
     
 }
