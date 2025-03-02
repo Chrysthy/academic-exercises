@@ -1,0 +1,9 @@
+*No contexto do Astah e do Java, temos os seguintes modificadores de acesso:
+
+1. Público (`public`): Atributos e métodos podem ser acessados de qualquer lugar.
+
+2. Privado (`private`): Atributos e métodos só podem ser acessados dentro da própria classe.
+
+3. Protegido (`protected`): Atributos e métodos podem ser acessados dentro da própria classe e por subclasses.
+
+4. Padrão (Package): Se nenhum modificador for especificado, o acesso é restrito ao pacote em que a classe está.
