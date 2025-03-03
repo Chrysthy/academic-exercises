@@ -5,7 +5,7 @@ public class ListaNumeros {
 
         for (int i = 1; i <= 4; i++) {
 
-            System.out.println(n + 1);
+            System.out.println(n + i);
 
             try {
 
