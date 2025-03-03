@@ -1,7 +1,7 @@
 
 public class ListaNumeros {
 
-    synchronized void printTable(int n) {
+    void printTable(int n) {
 
         for (int i = 1; i <= 4; i++) {
 
@@ -9,7 +9,8 @@ public class ListaNumeros {
 
             try {
 
-                Thread.sleep(1000);
+                Thread.sleep(300);
+                // 300 milissegundos
 
             } catch (Exception e) {
 
