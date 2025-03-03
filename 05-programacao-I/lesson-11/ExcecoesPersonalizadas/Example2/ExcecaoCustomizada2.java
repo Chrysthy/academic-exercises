@@ -1,5 +1,5 @@
 
-public class ExcecaoCustomizada extends Exception {
+public class ExcecaoCustomizada2 extends Exception {
 
     String mensagem;
 
