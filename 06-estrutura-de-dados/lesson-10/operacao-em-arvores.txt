@@ -1,0 +1,23 @@
+**OPERAÇÕES EM ÁRVORES**
+
+Com relação às operações em árvores binárias, serão abordadas as seguintes:
+
+- Inserir um nó na árvore;
+
+- Removê-lo um nós de uma árvore;
+
+- Consultar os nós da árvore em ordem;
+
+- Consultar em pré-ordem;
+
+- Consultar em pós-ordem;
+
+- inserir – a operação de inserir insere um elemento na árvore binária;
+
+- exibir à esquerda – a operação de exibir à esquerda mostra todos os elementos à esquerda de determinado nó;
+
+- exibir à direita – a operação de exibir à direita mostra todos os elementos à esquerda de determinado nó;
+
+- exibir raiz – a operação de exibir a raiz, mostra o elemento da raiz da árvore binária;
+
+- remover – a operação de remover exclui um elemento da árvore binária.
