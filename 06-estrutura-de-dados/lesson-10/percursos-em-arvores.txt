@@ -1,0 +1,7 @@
+Percursos em Árvores
+
+* No percurso em ordem, o percurso pela árvore binária é realizado na ordem, ou seja, esquerda, raiz e direita. 
+
+* No percurso pós ordem, o percurso pela árvore binária é realizado em pós ordem, ou seja, esquerda, direita e raiz. 
+
+* No percurso pré-ordem, o percurso pela árvore binária é realizado em pré-ordem, ou seja, raiz, esquerda e direita. 
