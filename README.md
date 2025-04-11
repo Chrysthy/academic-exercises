@@ -38,6 +38,7 @@
 - Bootstrap;
 - JavaScript;
 - Java;
+- Linguagem [R]();
 - Node;
 - Git e GitHub.
 
