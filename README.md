@@ -39,6 +39,7 @@
 - JavaScript;
 - Java;
 - Linguagem [R]();
+- Python;
 - Node;
 - Git e GitHub.
 
