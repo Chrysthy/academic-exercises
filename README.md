@@ -34,7 +34,7 @@
 - [PostgreSQL](https://www.postgresql.org/download/);
 - [PostgreSQL JDBC Driver](https://jdbc.postgresql.org/);
 - [Blockchain]();
-- 
+- [Machine Learning]();
 - HTML;
 - CSS;
 - Bootstrap;
