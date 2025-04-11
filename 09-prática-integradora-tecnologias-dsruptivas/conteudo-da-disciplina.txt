@@ -1,0 +1,18 @@
+Conteúdo da Disciplina
+
+* Prática de Estratégia de Marketing Digital
+* Prática de Criação de Conteúdo para Sites
+* Prática de Criação de Conteúdo para Redes Sociais
+* Introdução a Soluções Google Marketing
+* Prática de Análise de Soluções Google Marketing
+* Prática de Uso da Linguagem R
+* Prática de Uso da Linguagem R para Soluções Georreferenciadas
+* Prática de BI com Python Básico
+* Prática de BI com Python Avançado
+* Fundamentos do Desenvolvimento com Containers
+* Prática de Desenvolvimento com Containers Avançado
+* Prática de Uso de IA para Criação de Chatbot
+* Introdução à IA e ChatBots
+* Introdução à Tecnologia Blockchain
+* Prática de Desenvolvimento com Tecnologia Blockchain
+* Prática de Desenvolvimento de Solução de Machine Learning
