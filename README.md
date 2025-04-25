@@ -40,7 +40,7 @@
 - Bootstrap;
 - JavaScript;
 - Java;
-- Linguagem [R]();
+- Linguagem [R](https://posit.cloud/);
 - Python;
 - Node;
 - Git e GitHub.
