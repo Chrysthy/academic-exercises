@@ -35,6 +35,8 @@
 - [PostgreSQL JDBC Driver](https://jdbc.postgresql.org/);
 - [Blockchain]();
 - [Machine Learning]();
+- [DBeaver]();
+- [Oracle VirtualBox]();
 - HTML;
 - CSS;
 - Bootstrap;
