@@ -7,3 +7,6 @@ add periodo varchar2(15);
 
 describe turma;
 -- Exibe a estrutura da tabela turma, mostrando as colunas e seus tipos de dados.
+
+drop table turma;
+-- Remove a tabela turma do banco de dados, se existir.
