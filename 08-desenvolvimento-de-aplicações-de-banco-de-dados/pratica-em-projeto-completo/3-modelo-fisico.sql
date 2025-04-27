@@ -29,7 +29,7 @@ CREATE TABLE PECA (
 
 CREATE TABLE DEPOSITO (
     codigo_do_Deposito NUMERIC(4) 4 PRIMARY KEY,
-    Endereco_do_deposito Texto(100)
+    Endereco_do_deposito varchar2(100)
 );
 
 CREATE TABLE atende_VENDEDOR_CLIENTE_PEDIDO (
