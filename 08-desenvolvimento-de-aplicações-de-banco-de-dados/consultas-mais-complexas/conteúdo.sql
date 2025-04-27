@@ -23,4 +23,9 @@ select ename, dname, deptno
 from scott.emp natural join scott.dept
 
 
+-- para simplificar a digitação do comando, principalmente na hora de identificar o campo, damos apelidos para as tabelas
+-- o uso dos apelido não é obrigatório, mas é uma boa prática de programação, para facilitar a nossa vida quando digitamos o comando e principalmente quando as tabelas são grandes e possuem muitos campos
 
+select e.ename, d.dname, e.deptno
+from scott.emp e join scott.dept d
+on (e.deptno = d.deptno);
