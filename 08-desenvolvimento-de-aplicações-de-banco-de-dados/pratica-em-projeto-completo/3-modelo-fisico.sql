@@ -74,3 +74,29 @@ ALTER TABLE PEDIDO_PEÇA ADD CONSTRAINT FK_PEDIDO_PEÇA_2
     FOREIGN KEY (fk_PEDIDO_codigo_do_pedido)
     REFERENCES PEDIDO (codigo_do_pedido)
     ON DELETE SET NULL;
+
+
+
+-- No banco de dados Oracle - EX.
+
+CREATE TABLE DEPOSITO (
+    codigo_do_Deposito NUMERIC(4) 4 PRIMARY KEY,
+    Endereco_do_deposito varchar2(100)
+);
+
+-- Inser, popular a tabela DEPOSITO com dados fictícios:
+insert into deposito values(100, 'Rua X, 10');
+insert into deposito values(101, 'Rua Y, 20');
+insert into deposito values(102, 'Rua Z, 30');
+insert into deposito values(103, 'Rua W, 40');
+
+-- Verifique se os dados foram inseridos corretamente, acessando os dados, fazendo uma consulta:
+select * from deposito
+
+-- update, alterar o endereço do deposito com o código 100 para 'Rua A, 1':
+update  deposito 
+set endereco_do_deposito='Rua A,1'
+where CODIGO_DO_DEPOSITO=100;
+
+-- excluir o deposito com o código 100:
+delete from deposito where CODIGO_DO_DEPOSITO=100;
