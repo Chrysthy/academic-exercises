@@ -8,3 +8,20 @@ for(pkg in required_packages){
         library(pkg, character.only = TRUE)
     }
 }
+
+
+#importação de dados
+#df = data frame
+saude_df <- read.csv("saude_geodata.csv")
+logistica_df <- read.csv("logistica_geodata.csv")
+terceiro_setor_df <- read.csv("terceiro_setor_geodata.csv")
+
+
+#coversão de dados
+#são comandos padronizados
+#as função/conversão
+#coords = coordenates
+saude_df <- st_as_sf(saude_df, coords = c("Long", "Lat"), crs = 4326)
+logistica_df <- st_as_sf(logistica_df, coords = c("Long", "Lat"), crs = 4326)
+terceiro_setor_df <- st_as_sf(terceiro_setor_df, coords = c("Long", "Lat"), crs = 4326)
+
