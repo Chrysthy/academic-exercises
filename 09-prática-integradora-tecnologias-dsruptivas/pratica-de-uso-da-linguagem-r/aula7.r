@@ -25,3 +25,11 @@ saude_df <- st_as_sf(saude_df, coords = c("Long", "Lat"), crs = 4326)
 logistica_df <- st_as_sf(logistica_df, coords = c("Long", "Lat"), crs = 4326)
 terceiro_setor_df <- st_as_sf(terceiro_setor_df, coords = c("Long", "Lat"), crs = 4326)
 
+
+#mapear no mapa
+
+leaflet(data = saude_df) %>%
+    addTiles()%>%
+    addCirclesMarkers(radius = 5, color =  ~colorNumeric("viridis", saude_df$Usuarios) (Usuarios),
+    popup = ~paste("Usuário:", Usuarios)) %>%
+    addLegend("bottomright", pal = colorNumeric("viridis", saude_df$Usuarios), values = ~Usuarios, title = "Usuários")
