@@ -20,3 +20,10 @@ y_pred = model.predict(X_test)
 mse = mean_squared_error(y_test, y_pred)
 
 print(mse)
+
+
+#parte 2 - Visualização de previsão
+pred_df = pd.DataFrame({'Real': y_test, 'Predito': y_pred})
+
+fig = px.scatter(pred_df, x='Real', y='Predito', trendline="ols", title="Previsão de Conversões - Saúde")
+fig.show()
