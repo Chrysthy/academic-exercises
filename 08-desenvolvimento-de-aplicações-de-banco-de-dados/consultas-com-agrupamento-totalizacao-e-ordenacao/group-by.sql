@@ -53,3 +53,9 @@ select deptno, job, sal, from scott.emp order by deptno;
 select deptno, job, sum(sal) from scott.emp group by deptno, job 
 order by deptno, job;
 
+
+-- podemos colocar parenteses
+select deptno, job, sum(sal) 
+from scott.emp 
+group by (deptno, job)
+order by deptno, job;
