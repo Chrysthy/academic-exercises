@@ -35,3 +35,23 @@ from scott.emp
 where exists (select deptno
               from scott.dept d)
 order by deptno;
+
+
+-- In - a leitura é de SEJA. 
+-- Utilizado quando retona várias linhas
+
+select ename, job, sal
+from scott.emp
+where sal in (select max(sal)
+              from scott.emp
+              group by job);
+
+
+
+-- Também é utilizado quando retorna várias colunas.
+
+select empno, ename, job, sal, deptno
+from scott.emp
+where (job, deptno) in (select job, deptno
+                  from scott.emp
+                  where empno > 7844);
