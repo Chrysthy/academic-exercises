@@ -14,3 +14,28 @@ from scott.emp;
 
 -- Consegue trabalhar com caracteres
 select max(ename), min(ename) from scott.emp;
+
+
+-- função count - contagem de valores, elementos. Quantas linhas.
+
+select count(*) 
+from scott.emp;
+-- conta todas as linhas da tabela.
+
+select count(comm) 
+from scott.emp;
+-- quantos valores existem na coluna comm.
+
+
+select count(*) 
+from scott.emp
+where deptno = 30; 
+-- conta a quamtidade de linhas do departamento 30. Quantos funcionários existem no departamento 30.
+
+
+select count(ename), count(comm) 
+from scott.emp;
+-- conta quantos nomes existem e quantos valores existem na coluna comm.
+
+
+
