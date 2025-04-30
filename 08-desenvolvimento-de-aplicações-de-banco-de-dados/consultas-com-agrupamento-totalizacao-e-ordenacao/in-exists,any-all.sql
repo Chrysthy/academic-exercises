@@ -16,4 +16,14 @@ and job <> 'CLERK'
 
 
 
+--All - vai fazer a mesma coisa, serve para o retorno de subconsultas com várias linhas
+-- A leitura é de E e todos
+--Tem que ser menor que todos os salários de CLERK
+
+select empno, ename, job
+from scott.emp
+where sal < all
+            (select sal 
+            from scott.emp 
+            where job = 'CLERK')
 
