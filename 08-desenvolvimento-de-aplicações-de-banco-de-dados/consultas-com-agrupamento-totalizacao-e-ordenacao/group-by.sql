@@ -1,4 +1,4 @@
--- Grouo By
+-- Group By
 -- O GROUP BY é utilizado para agrupar os resultados de uma consulta com base em uma ou mais colunas. Podemos fazer grupos de dados e aplicar funções em cima desses grupos.
 
 select ename, sal, hiredate, deptno, job, comm from scott.emp;
@@ -38,4 +38,18 @@ from scott.emp;
 -- conta quantos nomes existem e quantos valores existem na coluna comm.
 
 
+
+--Agrupamentos dentro da tabela.
+-- formar um grupo dentro da tabela.
+select deptno, sal, from scott.emp order by deptno;
+
+select deptno, sum(sal) from scott.emp group by deptno order by deptno;
+
+
+-- Podemos formar subgrupos
+--Criamos um grupo do departamento e dentro do departamento o subgrupo.
+select deptno, job, sal, from scott.emp order by deptno;
+
+select deptno, job, sum(sal) from scott.emp group by deptno, job 
+order by deptno, job;
 
