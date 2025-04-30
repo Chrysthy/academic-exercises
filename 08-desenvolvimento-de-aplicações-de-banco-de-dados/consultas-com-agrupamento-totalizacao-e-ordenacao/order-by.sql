@@ -9,3 +9,10 @@ order by ename asc;
 select ename,sal from scott.emp
 order by sal desc;
 
+-- ordernar por mais de uma coluna
+select ename, deptno, sal
+from scott.emp
+order by deptno, sal desc;
+
+-- ordena o departamento em ordem crescente e o salário em ordem decrescente
+
