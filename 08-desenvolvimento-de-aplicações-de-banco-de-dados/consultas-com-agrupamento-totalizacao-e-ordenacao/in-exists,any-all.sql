@@ -27,3 +27,11 @@ where sal < all
             from scott.emp 
             where job = 'CLERK')
 
+
+--Exists - verifica a existência, se existe ou não, a comparação a igualdade de um valor com o outro
+
+select distinct deptno
+from scott.emp
+where exists (select deptno
+              from scott.dept d)
+order by deptno;
