@@ -9,6 +9,9 @@ default tablespace system -- local de gravação padrão, gravar os dados do usu
 quota unlimicreate ted on system -- pode gravar quantos dados ele quiser enquanto hover espaço no tablespace system
 password expire; -- força o usuário a trocar a senha no primeiro login, informa que está expirado
 
+
+-- Para condecer permissões/privilégios para o usuário:
+--Pode se conectar e criar tabelas no banco de dados
 grant create session, create table to aaron;
 
 conn aaron/futebol
