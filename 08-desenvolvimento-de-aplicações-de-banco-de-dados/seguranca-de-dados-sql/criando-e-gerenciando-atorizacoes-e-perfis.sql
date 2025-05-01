@@ -38,3 +38,24 @@ select username, account_status, lock_date, expiry_Date, default_tablespace, pro
 
 alter user peter
 account unlock; -- Desbloqueia o usuário, ele consegue logar novamente no banco de dados.
+
+
+
+--Controlar profile:
+
+-- Criando profile conexão e o parâmetro/ recurso de falhas na tentativa do login
+-- Esse significa que pode errar a senha duas vezes, na terceira vez ele vai ser bloqueado.
+
+create profile conexao limit
+FAILED_LOGIN_ATTEMPTS 2; -- Número de tentativas de login com falha antes de bloquear o usuário 
+
+-- Dar um select na dba_profiles para ver o profile que foi criado
+
+select profile, resource_name, limit from dba_profiles where profile = 'CONEXAO' and resource_name='FAILED_LOGIN_ATTEMPTS'; -- Verifica as caracteristicas do profile que foi criado
+
+-- Associar o profile ao usuário
+alter user peter
+profile conexao; -- Associa o profile ao usuário, ou seja, o usuário vai ter as características do profile que foi criado.
+
+
+select username,account_status, lock_date, expiry_Date, default_tablespace, profile from dba_users where username = 'PETER'; -- Verifica o status do usuário e o profile que foi associado a ele
