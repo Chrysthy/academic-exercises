@@ -34,4 +34,7 @@ conn system/manager
 
 select username, account_status, default_tablespace, created from dba_users where username = 'AARON'; -- para ver se o usuário existe e o status dele, buscar as principais informações do usuário
 
+
+drop user aaron; -- para eliminar o usuário, se ele tiver objetos criados, não vai deixar eliminar, vai dar erro, pois o usuário tem objetos criados no banco de dados.
+
 drop user aaron cascade; -- para eliminar o usuário e tudo que ele criou, se não usar o cascade, não vai eliminar os objetos criados por ele
