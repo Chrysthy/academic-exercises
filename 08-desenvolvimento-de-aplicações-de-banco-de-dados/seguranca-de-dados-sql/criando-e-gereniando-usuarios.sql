@@ -14,7 +14,16 @@ password expire; -- força o usuário a trocar a senha no primeiro login, inform
 --Pode se conectar e criar tabelas no banco de dados
 grant create session, create table to aaron;
 
+
+-- Para conectar com o usuário criado e como demos password expire, ele vai pedir a troca de senha
 conn aaron/futebol
+
+--Senha alterada para 123
+
+
+-- Para mostrar o usuário que está conectado:
 show user
 
+
+-- Para ver se o usuário está com a permissão de criar tabelas, no comando que informamos, vamos criar uma tabela teste:
 create table teste (id number);
