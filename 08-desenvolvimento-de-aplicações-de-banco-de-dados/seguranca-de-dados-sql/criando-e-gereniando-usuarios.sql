@@ -1,7 +1,7 @@
 -- Para criar usuários precisamos conectar com um usuário DBA do banco - Sys ou System
 
 -- Para criar usuário:
-conn system/oracle
+conn system/manager
 
 create user aaron -- usuário
 identified by futebol -- senha
@@ -27,3 +27,11 @@ show user
 
 -- Para ver se o usuário está com a permissão de criar tabelas, no comando que informamos, vamos criar uma tabela teste:
 create table teste (id number);
+
+
+-- Para eliminar o usuário:
+conn system/manager
+
+select username, account_status, default_tablespace, created from dba_users where username = 'AARON'; -- para ver se o usuário existe e o status dele, buscar as principais informações do usuário
+
+drop user aaron cascade; -- para eliminar o usuário e tudo que ele criou, se não usar o cascade, não vai eliminar os objetos criados por ele
