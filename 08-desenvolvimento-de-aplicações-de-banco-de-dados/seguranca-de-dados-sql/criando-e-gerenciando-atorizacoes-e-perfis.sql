@@ -59,3 +59,10 @@ profile conexao; -- Associa o profile ao usuário, ou seja, o usuário vai ter a
 
 
 select username,account_status, lock_date, expiry_Date, default_tablespace, profile from dba_users where username = 'PETER'; -- Verifica o status do usuário e o profile que foi associado a ele
+
+
+-- Para eliminar um profile:
+
+drop profile conexao; -- Elimina o profile que foi criado, não pode estar associado a nenhum usuário.
+
+drop user peter cascade; -- Elimina o usuário que foi criado, se ele tiver objetos associados a ele, vai eliminar tudo (cascade).
