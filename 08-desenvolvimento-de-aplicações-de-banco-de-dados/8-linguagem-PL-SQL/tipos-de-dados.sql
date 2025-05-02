@@ -14,3 +14,16 @@ END;
 /
 
 
+-- Exemplo 2 percent type: %TYPE
+DECLARE 
+    v_sum_sal emp.sal%TYPE;
+    v_dept_no NUMBER NOT NULL := 30;
+BEGIN
+    SELECT SUM(sal)  -- group function
+    INTO v_sum_sal 
+    FROM emp 
+    WHERE deptno = v_dept_no;
+    
+    DBMS_OUTPUT.PUT_LINE('A soma dos saláriosé ' || v_sum_sal);
+END;
+/
