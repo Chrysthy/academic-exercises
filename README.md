@@ -44,6 +44,7 @@
 - JavaScript;
 - Java;
 - Linguagem [R](https://posit.cloud/);
+- Linguagem PL/SQL;
 - Python;
 - Node;
 - Git e GitHub.
