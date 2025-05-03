@@ -1,6 +1,6 @@
 -- Loop
 
--- Loop é uma estrutura de repetição que executa um bloco de código enquanto uma condição for verdadeira.
+-- No Loop ao menos uma vez será executado, independete da condição ser falta ou veraddeira 
 
 conn system/manager
 
