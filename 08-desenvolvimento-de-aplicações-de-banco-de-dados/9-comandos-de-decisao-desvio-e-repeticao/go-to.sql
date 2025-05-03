@@ -1,5 +1,5 @@
 -- Go to
--- O comando GOTO é utilizado para desvio de fluxo, porém não é a melhor estrutura para fazer desvios.
+-- O comando GO TO é utilizado para desvio de fluxo, porém não é a melhor estrutura para fazer desvios.
 
 conn system/manager
 
