@@ -50,3 +50,42 @@ END;
 /
 
 select * from teste_loop;
+
+
+--Examplo 3
+-- Criando uma tabela loop aninhado
+
+conn system/manager
+
+create table loop_aninhados (
+    contador number, nome varchar2(100)
+);
+
+DECLARE
+    v_cont1 number := 1;
+    v_nome1 varchar2(100):= 'Loop 1';
+    v_cont2 number := 7;
+    v_nome2 varchar2(100):= 'Loop 2';
+       
+BEGIN
+    LOOP
+        INSERT INTO loop_aninhados (contador, nome) 
+        VALUES (v_cont1, v_nome1);
+        v_cont1 := v_cont1 + 1;
+        EXIT WHEN v_cont1 > 5;  -- condição de saída do loop externo
+    END LOOP;
+
+       
+        LOOP
+            INSERT INTO loop_aninhados (contador, nome) 
+            VALUES (v_cont2, v_nome2);
+            v_cont2 := v_cont2 + 1;
+            EXIT WHEN v_cont2 > 9;     --Condição de saída do loop externo     
+        END LOOP;
+
+END;
+/
+
+set linsize 200;
+
+select * from loop_aninhados;
