@@ -1,6 +1,10 @@
 -- Case 
 -- O comando CASE é utilizado para executar um bloco de código baseado em uma condição específica.
 
+conn system/manager
+
+set serveroutput on;
+
 DECLARE 
     a NUMBER;
     b NUMBER;
@@ -21,3 +25,4 @@ BEGIN
         DBMS_OUTPUT.PUT_LINE('Ooooopsss"');
     END CASE;
 END;
+/
