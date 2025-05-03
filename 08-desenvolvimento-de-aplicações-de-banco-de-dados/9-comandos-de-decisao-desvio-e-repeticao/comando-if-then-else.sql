@@ -2,6 +2,10 @@
 
 -- Comando IF THEN ELSE
 
+conn system/manager
+
+set serveroutput on;
+
 DECLARE 
     a NUMBER;
     b NUMBER;
@@ -19,3 +23,4 @@ BEGIN
         DBMS_OUTPUT.PUT_LINE('Ooooopsss"');
     END IF;
 END;
+/
