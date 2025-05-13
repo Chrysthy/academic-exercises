@@ -16,4 +16,9 @@ def recomendar_filmes(usuario_id, interacoes_usuario, filmes, num_recomendacoes=
     filmes_nao_assistidos = filmes[~filmes['filme_id'].isin(filmes_assistidos)]
     similaridades = cosine_similarity(perfil_usuario, filmes_nao_assistidos.iloc[:, 2:].values).flatten()
 
-    
+    # Ordenando os filmes com base na similaridade
+    indices_recomendados = np.argsort(similaridades)[-num_recomendacoes:][::1]
+    filmes_recomendados = filmes_nao_assistidos.iloc[indices_recomendados]
+
+    return filmes_recomendados, filmes_curtidos, perfil_usuario 
+
