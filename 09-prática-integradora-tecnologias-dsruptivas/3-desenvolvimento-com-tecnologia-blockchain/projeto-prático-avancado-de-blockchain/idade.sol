@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 
 contract SimpleStorage {
 
-    Struct UserInfo {
+    struct UserInfo {
 
         uint256 age;
         string name;
@@ -17,7 +17,14 @@ contract SimpleStorage {
 
         require(_age > 0, "Idade deve ser maior que zero");
         require(bytes(_name).length > 0, "Nome não pode ser vazio");
-    }
 
     users[msg.sender] = UserInfo(_age,_name);
+
+}
+
+
+function getUserInfo()
+
+
+
 }
