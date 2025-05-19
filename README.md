@@ -47,6 +47,7 @@
 - Linguagem [R](https://posit.cloud/);
 - Linguagem PL/SQL;
 - Python;
+- Solidity;
 - Node;
 - Git e GitHub.
 
