@@ -21,6 +21,8 @@ CREATE OR REPLACE PACKAGE BODY pkg_string_func AS
 END pkg_string_func;
 /
 
+-- bloco anônimo para saber quantas vezes a function foi chamada.
+
 SET SERVEROUTPUT ON;
 declare
 v_recebe number;
