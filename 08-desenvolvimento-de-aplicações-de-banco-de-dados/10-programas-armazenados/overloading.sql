@@ -81,3 +81,5 @@ BEGIN
     DBMS_OUTPUT.PUT_LINE('''3'' + 4 = ' || soma_tudo.soma('3','4'));
 END;
 /
+
+-- é através dos tipos de parâmetros pe que o oracle vai saber qual é a function correta que tem que ser executada.
