@@ -1,3 +1,8 @@
+conn system/manager
+
+set serveroutput on;
+drop table filmes;
+
 CREATE TABLE FILMES (
     filme_id NUMBER(5) primary key,
     titulo   VARCHAR2(100),
