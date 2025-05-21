@@ -5,6 +5,8 @@ DROP TABLE NOVO_DEPTO;
 CREATE TABLE NOVO_DEPTO AS (SELECT * FROM DEPT WHERE DEPTNO=0);
 SELECT * FROM NOVO_DEPTO;
 
+describe NOVO_DEPTO
+
 Declare 
     TYPE Tp_Tab_dept
     IS TABLE OF dept%ROWTYPE -- mesmo tipo da linha da tabela dept
