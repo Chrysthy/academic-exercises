@@ -26,3 +26,32 @@ conn system/oracle
 
 select * from event_log
 -- Se dermos o select, irá aparecer que o usuário efetuou o login
+
+
+-- Example 2
+
+conn system/oracle
+drop trigger seguro_emp;
+
+conn scott/tiger 
+drop trigger seguro_emp;
+
+drop table aud_emp;
+Create table aud_emp (
+    User_name varchar2(30),
+    Data date,
+    Antigo_nome varchar2(50),
+    Novo_nome varchar2(50),
+    Antigo_salario number(7,2),
+    Novo_salario (7,2)
+);
+
+
+CREATE OR REPLACE TRIGGER auditar_emp
+    AFTER DELETE OR INSERT OR UPDATE On Scott.emp
+    FOR EACH ROW
+BEGIN 
+    INSERT INTO aud_emp (User_name, data, Antigo_nome, Novo_nome, Antigo_salario, Novo_salario);
+    VALUES (user, sysdate, :old.ename, :new.ename, :old.sal, :new.sal);
+END;
+/
