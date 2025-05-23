@@ -68,3 +68,9 @@ set sal = 1300
 where ename = 'SANDRA';
 
 select User_name, TO_CHAR(data, 'DD-MM-YYYY HH:MI:SS'), Antigo_nome, Novo_nome, Antigo_salario, Novo_salario from aud_emp;
+
+
+-- excluindo dados da tabela
+delete emp where ename='Sandra';
+
+select User_name, TO_CHAR(data, 'DD-MM-YYYY HH:MI:SS'), Antigo_nome, Novo_nome, Antigo_salario, Novo_salario from aud_emp;
