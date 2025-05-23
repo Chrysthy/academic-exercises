@@ -55,3 +55,16 @@ BEGIN
     VALUES (user, sysdate, :old.ename, :new.ename, :old.sal, :new.sal);
 END;
 /
+
+-- testando o gatilho
+insert into SCOTT.emp (empno, ename, sal, deptno)
+values(7937, 'Sandra', 1203, 10);
+
+select User_name, TO_CHAR(data, 'DD-MM-YYYY HH:MI:SS'), Antigo_nome, Novo_nome, Antigo_salario, Novo_salario from aud_emp;
+
+-- atualizando a tabela
+update scott.emp
+set sal = 1300
+where ename = 'SANDRA';
+
+select User_name, TO_CHAR(data, 'DD-MM-YYYY HH:MI:SS'), Antigo_nome, Novo_nome, Antigo_salario, Novo_salario from aud_emp;
