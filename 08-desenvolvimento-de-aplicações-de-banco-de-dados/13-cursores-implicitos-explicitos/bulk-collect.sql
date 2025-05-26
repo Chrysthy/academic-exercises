@@ -29,4 +29,4 @@ BEGIN
 END;
 /
 
-
+execute PR_EXEMPLO_05;
