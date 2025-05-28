@@ -25,3 +25,19 @@ when OTHERS then
     DBMS_OUTPUT.PUT_LINE('ERRO DESCONHECIDO');
 END;
 /
+
+
+-- Example 2
+
+Declare 
+    number := 0;
+    number := 5;
+    Resultado number;
+BEGIN
+Resultado := y/x;
+
+EXCEPTION 
+when ZERO_DIVIDE then
+    DBMS_OUTPUT.PUT_LINE('NÃO É POSSÍVEL DIVIDIR POR ZERO');
+end;
+/
