@@ -16,6 +16,9 @@ BEGIN
         if reg_ex_atual.job = 'CLERK' then
             update emp set sal = sal * 1.10
             where current of cursor_ex_atual;
+        elseif reg_ex_atual.comm is null then
+            update emp set comm = sal * 0.10
+            where current of cursor_ex_atual;
         elseif reg_ex_atual.job = 'PRESIDENT' then
             update emp set sal = sal + sal
             where current of cursor_ex_atual;
