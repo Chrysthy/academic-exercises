@@ -1,3 +1,4 @@
+-- Permite a realização de operações DML dentro do cursor
 
 select JOB, SAL from emp;
 
