@@ -1,0 +1,20 @@
+{
+  "name": "lesson-1",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\"> College of Software Development (ADS) </h1>",
+  "homepage": "https://github.com/Chrysthy/academic-exercises#readme",
+  "bugs": {
+    "url": "https://github.com/Chrysthy/academic-exercises/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chrysthy/academic-exercises.git"
+  },
+  "license": "ISC",
+  "author": "Chrystine Martins",
+  "type": "module",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
