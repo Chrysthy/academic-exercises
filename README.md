@@ -89,17 +89,17 @@
 
 **Third Semester**
 
-* _Design de Software_
+* _Arquitetura de Computadores do Século XXI_
 
-* _Programação I_
+* _Programação II_
 
-* _Estrutura de Dados para Sistemas Inteligentes_
+* _Desenvolvimento Mobile_
 
-* _Desenvolvimento de Aplicações de Banco de Dados_
+* _FrameWork_
 
-* _Prática Integradora Tecnologias Disruptivas_
+* _Prática Integradora Desenvolvimento de Apps_
 
-* _PEX IIi - Projeto de Extensão_
+* _PEX III - Projeto de Extensão_
 
 <br>
 
