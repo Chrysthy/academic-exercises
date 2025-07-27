@@ -35,11 +35,12 @@
 - [PostgreSQL JDBC Driver](https://jdbc.postgresql.org/);
 - NoSQL
 - [Google Colab](https://colab.research.google.com/);
-- [Blockchain]();
-- [Machine Learning]();
-- [DBeaver]();
-- [Oracle VirtualBox]();
+- Blockchain;
+- Machine Learning;
+- [DBeaver](https://dbeaver.io/);
+- [Oracle VirtualBox](https://www.virtualbox.org/);
 - [REMIX](https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.30+commit.73712a01.js);
+- [Mongo](https://www.mongodb.com/);
 - HTML;
 - CSS;
 - Bootstrap;
