@@ -33,7 +33,7 @@
 - [Portugol](https://sourceforge.net/projects/visualg30/);
 - [PostgreSQL](https://www.postgresql.org/download/);
 - [PostgreSQL JDBC Driver](https://jdbc.postgresql.org/);
-- NoSQL
+- NoSQL;
 - [Google Colab](https://colab.research.google.com/);
 - Blockchain;
 - Machine Learning;
@@ -41,6 +41,7 @@
 - [Oracle VirtualBox](https://www.virtualbox.org/);
 - [REMIX](https://remix.ethereum.org/#lang=en&optimize=false&runs=200&evmVersion=null&version=soljson-v0.8.30+commit.73712a01.js);
 - [Mongo](https://www.mongodb.com/);
+- [Postman](https://www.postman.com/);
 - HTML;
 - CSS;
 - Bootstrap;
