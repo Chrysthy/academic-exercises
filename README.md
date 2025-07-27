@@ -33,6 +33,7 @@
 - [Portugol](https://sourceforge.net/projects/visualg30/);
 - [PostgreSQL](https://www.postgresql.org/download/);
 - [PostgreSQL JDBC Driver](https://jdbc.postgresql.org/);
+- NoSQL
 - [Google Colab](https://colab.research.google.com/);
 - [Blockchain]();
 - [Machine Learning]();
