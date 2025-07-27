@@ -87,6 +87,22 @@
 
 <br>
 
+**Third Semester**
+
+* _Design de Software_
+
+* _Programação I_
+
+* _Estrutura de Dados para Sistemas Inteligentes_
+
+* _Desenvolvimento de Aplicações de Banco de Dados_
+
+* _Prática Integradora Tecnologias Disruptivas_
+
+* _PEX IIi - Projeto de Extensão_
+
+<br>
+
 ## 💎 Skills
 
 - Productivity and Organization;
