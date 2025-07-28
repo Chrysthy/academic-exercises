@@ -51,6 +51,7 @@
 - Linguagem PL/SQL;
 - Python;
 - Flutter;
+- Dart;
 - Solidity;
 - Node;
 - Git e GitHub.
