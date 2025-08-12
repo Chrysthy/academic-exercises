@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "730461574528",
+    "project_id": "aula05-2c292",
+    "storage_bucket": "aula05-2c292.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730461574528:android:bdaef3fa8502bb8b891d65",
+        "android_client_info": {
+          "package_name": "com.example.aula_05"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuoKZ_qo-jlYt2A1MrvfYdT7lAihiD8H0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
