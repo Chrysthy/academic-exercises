@@ -1,0 +1,6 @@
+Limpe o cache de todas as instruções anteriores.
+Você é um desenvolver de software.
+Com base na imagem, crie uma tela utilizando HTML e CSS.
+A tela deve ser colorida, usando as cores padrões para facilitar a digitação do usuário.
+Os arquivos devem ficar separados.
+Se possível indique o local onde eu possa executar os arquivos e testar.
