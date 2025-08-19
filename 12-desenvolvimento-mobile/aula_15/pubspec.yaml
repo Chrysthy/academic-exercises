@@ -1,0 +1,95 @@
+name: aula_15
+description: "Um novo projeto Flutter."
+# A linha a seguir impede que o pacote seja publicado acidentalmente no
+# pub.dev usando `flutter pub publish`. Isso é preferível para pacotes privados.
+publish_to: 'none' # Remova esta linha se você desejar publicar no pub.dev
+
+# A seguir define a versão e o número de compilação para sua aplicação.
+# Um número de versão é composto por três números separados por pontos, como 1.2.43
+# seguido por um número de compilação opcional separado por um +.
+# Tanto a versão quanto o número da compilação podem ser sobrescritos no flutter
+# build especificando --build-name e --build-number, respectivamente.
+# No Android, build-name é usado como versionName, enquanto build-number é usado como versionCode.
+# Leia mais sobre versionamento no Android em https://developer.android.com/studio/publish/versioning
+# No iOS, build-name é usado como CFBundleShortVersionString, enquanto build-number é usado como CFBundleVersion.
+# Leia mais sobre versionamento no iOS em
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# No Windows, build-name é usado como as partes major, minor, e patch
+# das versões de produto e arquivo, enquanto build-number é usado como o sufixo de compilação.
+version: 1.0.0+1
+
+# Significa que o projeto requer a versão 3.5.3 (ou superior, até a próxima versão maior) do SDK do Dart para ser executado corretamente.
+environment:
+  sdk: ^3.5.3
+
+# Dependências especificam outros pacotes que o seu pacote precisa para funcionar.
+# Para atualizar automaticamente suas dependências de pacotes para as versões mais recentes,
+# considere rodar `flutter pub upgrade --major-versions`. Alternativamente,
+# as dependências podem ser atualizadas manualmente alterando os números de versão abaixo para
+# as versões mais recentes disponíveis no pub.dev. Para ver quais dependências possuem versões mais recentes
+# disponíveis, execute `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Representa uma dependência no arquivo pubspec.yaml para o pacote http, que é uma biblioteca popular no Dart/Flutter 
+  # para fazer solicitações HTTP (como GET, POST, PUT, DELETE) para APIs e serviços web.
+  http: ^0.13.3  # Exemplo de dependência
+
+  # A linha a seguir adiciona a fonte Cupertino Icons à sua aplicação.
+  # Use com a classe CupertinoIcons para ícones no estilo iOS.
+  cupertino_icons: ^1.0.8
+
+# Faz parte das dependências de desenvolvimento do projeto. 
+# Essas dependências são usadas apenas durante o desenvolvimento e não são necessárias quando a aplicação é distribuída ou executada em produção.
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # O pacote "flutter_lints" abaixo contém um conjunto de lints recomendados para
+  # incentivar boas práticas de codificação. O conjunto de lints fornecido pelo pacote é
+  # ativado no arquivo `analysis_options.yaml` localizado na raiz do seu
+  # pacote. Veja esse arquivo para informações sobre desativar regras de lint específicas
+  # e ativar regras adicionais.
+  flutter_lints: ^4.0.0
+
+# Para informações sobre a parte genérica do Dart deste arquivo, veja a
+# seguinte página: https://dart.dev/tools/pub/pubspec
+
+# A seção a seguir é específica para pacotes Flutter.
+flutter:
+
+  # A linha a seguir garante que a fonte Material Icons seja
+  # incluída em sua aplicação, para que você possa usar os ícones na
+  # classe Material Icons.
+  uses-material-design: true
+
+  # Para adicionar recursos à sua aplicação, adicione uma seção assets, assim:
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+
+  # Um recurso de imagem pode se referir a uma ou mais "variantes" específicas de resolução, veja
+  # https://flutter.dev/to/resolution-aware-images
+
+  # Para mais detalhes sobre como adicionar recursos de dependências de pacotes, veja
+  # https://flutter.dev/to/asset-from-package
+
+  # Para adicionar fontes personalizadas à sua aplicação, adicione uma seção fonts aqui,
+  # nesta seção "flutter". Cada entrada nesta lista deve ter uma chave "family" com o nome da família de fontes,
+  # e uma chave "fonts" com uma lista fornecendo o arquivo e outros descritores para a fonte. Por exemplo:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # Para mais detalhes sobre fontes de dependências de pacotes,
+  # veja https://flutter.dev/to/font-from-package
+
