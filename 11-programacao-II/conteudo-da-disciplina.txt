@@ -1,0 +1,24 @@
+Conteúdo da Disciplina
+
+* Apresentação do ambiente e conceitos básicos
+* Iniciando com o Node.js
+* Aplicação com Banco de Dados
+* Entendendo o padrão MVC
+* Adicionando CRUD na aplicação
+* Validação da implementação da aplicação
+* Evoluindo o CRUD da aplicação
+* Middleware
+* Middleware de Autenticação
+* Trabalhando com arquivos
+* Iniciando com Framework Next.js
+* Integração do projeto Next.JS com a aplicação
+* Trabalhando com arquivos em Next.js
+* Consumo de APIs
+* Outras possibilidades de API Restful
+* Boas práticas de Mercado
+
+! Projeto Prático Med App:
+
+O Med App 👩🏻‍⚕️🩺 é uma aplicação desenvolvida como parte de um curso universitário, focada em autenticação de usuários, upload de arquivos, geração de PDFs e gerenciamento 
+de dados.
+Ele utiliza uma arquitetura baseada em RESTful API para fornecer serviços seguros e escaláveis.
